@@ -1,1 +1,1 @@
-web: gunicorn heard-it.wsgi
+web: gunicorn heardit.wsgi
