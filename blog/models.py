@@ -38,6 +38,7 @@ class Post(models.Model):
     def number_of_likes(self):
         return self.likes.count()
 
+
 # one to many relationship
 class Comment(models.Model):
     post = models.ForeignKey(Post, on_delete=models.CASCADE,
