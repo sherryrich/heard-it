@@ -143,6 +143,7 @@ body {
     border: none;
 }
 
-.footer .fab:before {
-    color: #fff;;
+
+.footer.social:hover {
+    color: #E84610;
 }
