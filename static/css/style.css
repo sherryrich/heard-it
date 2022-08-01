@@ -10,7 +10,7 @@ body {
 }
 
 .red-o {
-    color: #E84610;
+    color: #47CDEB;
 }
 
 .thin {
@@ -43,7 +43,7 @@ body {
     bottom: 5%;
     min-width: 30%;
     left: -2px;
-    background-color: #23BBBB;
+    background-color: #47CDEB;
 }
 
 .author {
@@ -107,18 +107,18 @@ body {
 }
 
 .btn-signup {
-    background-color: #23BBBB;
+    background-color: #47CDEB;
     color: #fff;
 }
 
 .btn-signup:hover,
 .btn-signup:active {
     background-color: #fff;
-    color: #23BBBB;
+    color: #47CDEB;
 }
 
 .link {
-    color: #23BBBB;
+    color: #47CDEB;
     text-decoration: none;
 }
 
@@ -139,4 +139,8 @@ body {
     color: #E84610;
     background: transparent;
     border: none;
+}
+
+.footer .fab:before {
+    color: #fff;;
 }
