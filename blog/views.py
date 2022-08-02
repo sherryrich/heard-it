@@ -1,9 +1,33 @@
 from django.shortcuts import render, get_object_or_404, reverse, redirect
 from django.views import generic, View
-from django.http import HttpResponseRedirect
 from .models import Post
-from django.db.models import Q
 from .forms import CommentForm
+from django.forms import ModelForm
+from django.http import HttpResponseRedirect
+from django.db.models import Q
+from django.contrib import messages
+
+
+def add_article(request):
+    """View for creating article posts."""
+
+    if not request.user.is_authenticated:
+        messages.error(request, "You must login before you can submit")
+        return redirect("/accounts/login/")
+    form = None
+    if request.method == "POST":
+        form = PostForm(request.POST, request.FILES)
+        form.instance.author = request.user
+        if form.is_valid():
+
+            form.save()
+            messages.success(request,
+                             "Thanks for submitting your article!")
+            return redirect("home")
+    else:
+        form = PostForm()
+    return render(request, 'post_form.html', {'new': new})
+
 
 
 def search_articles(request):
