@@ -52,9 +52,12 @@
                     </li>
                     {% endif %}
                 </ul>
-                <span class="navbar-text text-muted">
-                    technology news website
-                </span>
+                <form class="d-flex" method=POST action="{% url 'search_articles' %}">
+                    {% csrf_token %}
+                    <input class="form-control me-2" type="search" placeholder="Search Articles" aria-label="Search"
+                        name="searched" style="width: 600px;">
+                    <button class="btn btn-outline-info search_button" type="submit">Search</button>
+                </form>
             </div>
         </div>
     </nav>

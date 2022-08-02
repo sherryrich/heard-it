@@ -4,7 +4,6 @@
 
 <div class="container-fluid">
     <div class="row">
-
         <!-- Blog Entries Column -->
         <div class="col-12 mt-3 left">
             <div class="row">
@@ -15,7 +14,8 @@
                             <div class="image-container">
                                 {% if "placeholder" in post.featured_image.url %}
                                 <img class="card-img-top"
-                                    src="https://res.cloudinary.com/dzyxqqpzh/image/upload/v1659357355/riydl2l136ydluqficpq.jpg" alt="default computer image">
+                                    src="https://res.cloudinary.com/dzyxqqpzh/image/upload/v1659357355/riydl2l136ydluqficpq.jpg"
+                                    alt="default computer image">
                                 {% else %}
                                 <img class="card-img-top" src=" {{ post.featured_image.url }}">
                                 {% endif %}
