@@ -7,14 +7,16 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8 mt-3 offset-md-2">
-            <h3>Search</h3>
             <p>
                 {% if searched %}
-                <h4>You Searched for {{searched}}</h4>
+                    <h3>Search Results for "{{ searched }}"</h3>
 
-                % else %
-                <h4>You forgot to search for an article!</h4>
+                <!-- {% for article in articles %}
+                  <a href="{% url 'search_articles' article.id }"> {{ Post }}</a> <br>
+                {% endfor %} -->
 
+                {% else %}
+                    <h4>You forgot to search for an article!</h4>
                 {% endif %}
             </p>
         </div>

@@ -5,6 +5,7 @@ from .models import Post
 from django.db.models import Q
 from .forms import CommentForm
 
+
 def search_articles(request):
     if request.method == 'POST':
         searched = request.POST['searched']
@@ -14,8 +15,10 @@ def search_articles(request):
             Q(content__icontains=searched) |
             Q(title__icontains=searched) |
             Q(author__username__icontains=searched)).filter(status=1)
-    
-        return render(request, 'index.html', {'searched': searched, 'post_list': post_list})
+
+        return render(request, 'index.html',
+                      {'searched': searched,
+                       'post_list': post_list})
     else:
         return render(request, 'index.html', {})
 
