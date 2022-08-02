@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+{% load cloudinary %} 
+
+{% block content %}
+
+<div class="masthead">
+    <div class="container">
+        <div class="row">
+
+            <div class = "content_section">
+                <form method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <fieldset class="form-group">
+                        <legend class="border-bottom mb-4 recipe-post-heading heading-font">Recipe Post</legend>
+                        {{ form|crispy }}
+                    </fieldset>
+                    <div class="form-group">
+                        <button class="btn btn-lg create_update_button" type ="submit">Post</button>
+                    </div>
+                </form>
+            </div>
+        
+        </div>
+{% endblock content %}
