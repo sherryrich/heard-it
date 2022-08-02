@@ -16,7 +16,7 @@ def search_articles(request):
             Q(title__icontains=searched) |
             Q(author__username__icontains=searched)).filter(status=1)
 
-        return render(request, 'search_articles.html', {'searched': searched, 'post_list': post_list})
+        return render(request, 'index.html', {'searched': searched, 'post_list': post_list})
     else:
         return render(request, 'index.html', {})
 

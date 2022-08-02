@@ -6,6 +6,21 @@
     <div class="row">
         <!-- Blog Entries Column -->
         <div class="col-12 mt-3 left">
+            <div>
+                {% if searched %}
+                    <br/>
+                    {% if post_list|length < 1 %}
+                    <div class="heading-font">
+                        <h1>No results for '{{ searched }}' :(</h1>
+                    </div>
+                    {% else%}
+                    <div class="heading-font">
+                        <h1>You searched for '{{ searched }}':</h1>
+                    </div>
+                    <br/>
+                    {% endif %}
+                {% endif %}
+            </div>
             <div class="row">
                 {% for post in post_list %}
                 <div class="col-md-4">
@@ -41,6 +56,7 @@
 
             </div>
         </div>
+        
     </div>
     {% if is_paginated %}
     <nav aria-label="Page navigation">
