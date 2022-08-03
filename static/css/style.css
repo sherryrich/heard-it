@@ -106,13 +106,17 @@ body {
     color: lightgray;
 }
 
-.btn-signup {
+.btn-signup,
+.create_update_button {
     background-color: #47CDEB;
     color: #fff;
 }
 
 .btn-signup:hover,
-.btn-signup:active {
+.create_update_button:hover,
+.btn-signup:active,
+.create_update_button:active,
+ {
     background-color: #fff;
     color: #47CDEB;
 }
@@ -146,4 +150,12 @@ body {
 
 .footer.social:hover {
     color: #E84610;
+}
+
+.post-article {
+    width: 75%;
+}
+
+ .create_update_button {
+    margin: 20px;
 }
