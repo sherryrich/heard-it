@@ -31,7 +31,11 @@
                 <!-- Use the | safe filter inside the template tags -->
                 <p class="card-text "></p>
                 {{ post.content | safe }}
-                <div class="row">
+                <div class="row"> 
+                    {% if user.username == post.author.username %}
+                    <a href="{% url 'post_update' post.slug %}" class="btn btn-primary"> Update </a>
+                    <a href="{% url 'post_delete' post.slug %}" class="btn btn-danger"> Delete </a>
+                    {% endif %}  
 
                     <div class="col-1">
                         <strong>
@@ -113,6 +117,7 @@
                 {% endif %}
             </div>
         </div>
+        
     </div>
 </div>
 

@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 from cloudinary.models import CloudinaryField
+from django.template.defaultfilters import slugify
 
 # models created below
 # creating ERD into model, cascade if profile
@@ -26,6 +27,10 @@ class Post(models.Model):
     # decending order
     class Meta:
         ordering = ["-created_on"]
+
+    def save(self, *args, **kwargs):
+        self.slug = slugify(self.title)
+        super().save(*args, **kwargs)
 
     #  Django doc - magic method that returns
     # a string representation of an object

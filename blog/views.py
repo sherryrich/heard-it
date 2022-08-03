@@ -12,6 +12,8 @@ from django.contrib import messages
 from django.views.generic import CreateView, UpdateView, DeleteView
 
 
+# CRUD Functionality
+# Creating a Post
 class CreatePostView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
     """ If user is logged can create a new post """
 
@@ -25,9 +27,42 @@ class CreatePostView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
         form.instance.author = self.request.user
         return super().form_valid(form)
 
-    # Updating or Editing Post
+# Updating or Editing Post
+class UpdatePostView(UserPassesTestMixin, LoginRequiredMixin, SuccessMessageMixin, UpdateView):
+    """ If user is logged can update a post """
+
+    model = Post
+    template_name = "post_form.html"
+    fields = ['title', 'content', 'featured_image', 'excerpt']
+    success_url = reverse_lazy('home')
+    success_message = ("Your Post has been updated")
 
 
+    def form_valid(self, form):
+        form.instance.author = self.request.user
+        return super().form_valid(form)
+
+
+    def test_func(self):
+        post = self.get_object()
+        if self.request.user == post.author:
+            return True
+        return False
+
+ # Deleteing a Post
+
+class DeletePostView(UserPassesTestMixin, LoginRequiredMixin, SuccessMessageMixin, DeleteView):
+    """ If user is logged can delete a his post """
+    
+    model = Post
+    success_url = reverse_lazy('home')
+    success_message = ("Your Post has been deleted")
+
+    def test_func(self):
+        post = self.get_object()
+        if self.request.user == post.author:
+            return True
+        return False
 
 def add_article(request):
     """View for creating article posts."""
