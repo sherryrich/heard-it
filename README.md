@@ -60,16 +60,20 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
   * [Python](https://www.python.org/)
 
 ### Frameworks, Libraries & Programs Used
-* [Font Awesome](https://fontawesome.com/) was used for icons for aesthetic and UX purposes on the buttons.
+* [amiresponsive](http://ami.responsivedesign.is/) to see how responsive the site is on different devices.
+* [Balsamiq](https://balsamiq.com/) was used to create the Wireframes.
+* [Cloudinary](https://cloudinary.com/) was used to upload, store, manage, manipulate, and deliver images.
 * [Color-hex](https://www.color-hex.com/) once I identified the colors I wanted I used color-hex to generate the palette.
+* [Django](https://www.djangoproject.com/) is a free and open-source, Python-based web framework that follows the model–template–views architectural pattern.
+* [Font Awesome](https://fontawesome.com/) was used for icons for aesthetic and UX purposes on the buttons.
 * [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 * [GitHub](https://github.com/) GitHub is used to store the projects code after being pushed from Git.
 * [Gitpod](https://www.gitpod.io/) An online IDE linked to the GitHub repository used to write my code.
 * [Google Chrome Dev tools](https://developer.chrome.com/docs/devtools/) for debugging.
 * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) used for audits to measure the quality of web pages.
+* [Heroku](https://www.heroku.com/) used to deploy this app, a cloud platform as a service supporting several programming languages.
 * [WAVE](https://wave.webaim.org/extension/) Browser Extension testing.
-* [Balsamiq](https://balsamiq.com/) was used to create the Wireframes.
-* [amiresponsive](http://ami.responsivedesign.is/) to see how responsive the site is on different devices.
+
 
 ## Testing
 
