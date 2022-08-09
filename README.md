@@ -1,7 +1,7 @@
 # HEARD|it
 
 ## Introduction
-Create, Read and Shape the news conversations with the focus on technology start-ups.
+HEARD|it is an Irish technology news website which encourages users to Create, Read and Shape the news with a focus on technology start-ups.
 
 A deployed link to the website can be found [here](https://heard-it.herokuapp.com/)
 
@@ -14,7 +14,14 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
   - [Introduction](#introduction)
   - [UX](#ux-user-experience)
     - [User Stories](#user-stories)
+ - [Skeleton](#skeleton)
+ - [Design](#design)
+ - [Testing](#testing)
+ - [Deployment](#deployment)
+ - [Credits](#credits)
+ - [Acknowledgements](#acknowledgements)
 
+ ## Design
 
 ## UX User Experience
 ### User Stories
@@ -33,7 +40,8 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 * I want to be able to make changes to the post by editing post(s) / article(s)
 * I want to be able to Remove / delete post(s) / article(s) permentatly
 
-## Wireframes
+## Skeleton
+### Wireframes
 * To view all wireframes both Desktop & mobile [Click Here](https://github.com/sherryrich/heard-it/blob/main/docs/heardit_wireframes.pdf)
 
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/homepage.PNG)
@@ -45,12 +53,13 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 ## Lighthouse Report
 
 ## Technologies Used
+### Languages Used
   * [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
   * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
   * [JavaScript](https://www.javascript.com/)
   * [Python](https://www.python.org/)
 
-#### Frameworks, Libraries & Programs Used
+### Frameworks, Libraries & Programs Used
 * [Font Awesome](https://fontawesome.com/) was used for icons for aesthetic and UX purposes on the buttons.
 * [Color-hex](https://www.color-hex.com/) once I identified the colors I wanted I used color-hex to generate the palette.
 * [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
@@ -68,15 +77,15 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 
 ### W3C Validator Testing
 
-#### The W3C Markup Validator
+### The W3C Markup Validator
 
 ### W3C CSS Validator
 
-### Bugs
+## Bugs
 
 ### Unfix Bugs
 
-### Deployment
+## Deployment
 
 ## Credits
 
