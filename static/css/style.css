@@ -159,3 +159,7 @@ body {
  .create_update_button {
     margin: 20px;
 }
+
+.error_code_message {
+    color: #47CDEB;
+}
