@@ -86,14 +86,14 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 ### W3C CSS Validator
 
 ## Bugs
-* Manage.py was not in the root directory.
+* Manage.py was not in the root directory. [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_1.png)
 * App wasn’t deploying to heroku correctly. Updated Procfile from "heard-it" to "heardit"
-* Update your requirements.txt - pip3 freeze > requirements.txt and try again. I had a typo in requirements without .txt
-* Template litteral typo error "$" instead of "%"
-* Error in views.py. '-created' versus '-created_on'
-* Missing comma at the end of this line "STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]"
-* I didn’t have "redirect" imported at toP of views.py file
-* Error in the terminal. Heroku updated databse so had go to Heroku config vars and copy and paste the new database_url into the env.py to correct.
+* Update your requirements.txt - pip3 freeze > requirements.txt and try again. I had a typo in requirements without .txt [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_2.png)
+* Template litteral typo error "$" instead of "%" [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_3.png)
+* Error in views.py. '-created' versus '-created_on' [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_4.png)
+* Missing comma at the end of this line "STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]" [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_5.png)
+* 500 Error because I didn’t have "redirect" imported at top of views.py file[Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_6.png)
+* Error in the terminal. Heroku updated databse so had go to Heroku config vars and copy and paste the new database_url into the env.py to correct [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_7.png)
 
 
 
