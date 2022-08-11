@@ -86,6 +86,21 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 ### W3C CSS Validator
 
 ## Bugs
+* Manage.py was not in the root directory.
+* App wasn’t deploying to heroku correctly. Updated Procfile from "heard-it" to "heardit"
+* Update your requirements.txt - pip3 freeze > requirements.txt and try again. I had a typo in requirements without .txt
+* Template litteral typo error "$" instead of "%"
+* Error in views.py. '-created' versus '-created_on'
+* Missing comma at the end of this line "STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]"
+* I didn’t have "redirect" imported at toP of views.py file
+* Error in the terminal. Heroku updated databse so had go to Heroku config vars and copy and paste the new database_url into the env.py to correct.
+
+
+
+
+
+
+
 
 ### Unfix Bugs
 
