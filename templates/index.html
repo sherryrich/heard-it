@@ -4,8 +4,10 @@
 
 <div class="container-fluid">
     <div class="row">
+        
         <!-- Blog Entries Column -->
         <div class="col-12 mt-3 left">
+            <h1>Technology, Science and Start-Up News</h1>
             <div>
                 {% if searched %}
                     <br/>
@@ -31,12 +33,12 @@
                                 {% if "placeholder" in post.featured_image.url %}
                                 <img class="card-img-top"
                                     src="https://res.cloudinary.com/dzyxqqpzh/image/upload/v1659357355/riydl2l136ydluqficpq.jpg"
-                                    alt="default computer image">
+                                    alt="computer screen with random code">
                                 {% else %}
-                                <img class="card-img-top" src=" {{ post.featured_image.url }}">
+                                <img class="card-img-top" alt="article submitted by author" src=" {{ post.featured_image.url }}">
                                 {% endif %}
                                 <div class="image-flash">
-                                    <p class="author">Author: {{ post.author }}</p>
+                                    <p class="author">Author: {{ post.author }} </p>
                                 </div>
                             </div>
                             <a href="{% url 'post_detail' post.slug  %}" class="post-link">

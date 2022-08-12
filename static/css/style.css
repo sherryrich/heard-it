@@ -9,8 +9,25 @@ body {
     color: #4A4A4F;
 }
 
-.red-o {
-    color: #47CDEB;
+.logo-o {
+    color: #245E6B;
+}
+
+.image-flash {
+    background-color: #245E6B !important;
+}
+
+.btn-outline-info {
+    color: #245E6B;
+    border-color: #0dcaf0  !important;
+}
+
+.card-text {
+    color: #245E6B  !important;
+}
+
+.page-link {
+    color: #245E6B  !important;
 }
 
 .thin {
