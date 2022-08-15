@@ -84,6 +84,10 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 ### The W3C Markup Validator
 
 ### W3C CSS Validator
+  <details>
+  <summary>Click to see the result</summary>
+  ![](w3c_css_validator_result.PNG)
+  </details>
 * TW3C CSS Validation Service - style.css [result](https://github.com/sherryrich/heard-it/blob/main/docs/w3c_css_validator_result.PNG)
 
 ### Lighthouse
