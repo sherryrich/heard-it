@@ -38,21 +38,21 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a id="nav-link-about" class="nav-link" aria-current="page" href="{% url 'about' %}">About</a>
+                        <a id="about-page" class="nav-link" aria-current="page" href="{% url 'about' %}">About</a>
                     </li>
                     {% if user.is_authenticated %}
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'new' %}">Post Article</a>
+                        <a id="new-page" class="nav-link" href="{% url 'new' %}">Post Article</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'account_logout' %}">Logout</a>
+                        <a id="logout-page" class="nav-link" href="{% url 'account_logout' %}">Logout</a>
                     </li>
                     {% else %}
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'account_signup' %}">Register</a>
+                        <a id="signup-page" class="nav-link" href="{% url 'account_signup' %}">Sign Up</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'account_login' %}">Login</a>
+                        <a id="login-page" class="nav-link" href="{% url 'account_login' %}">Login</a>
                     </li>
                    
                     {% endif %}
@@ -104,6 +104,29 @@
             let alert = new bootstrap.Alert(messages);
             alert.close();
         }, 2500);
+
+        // Highlight active pages.
+
+        if (window.location.pathname == '/about'){
+            document.getElementById('about-page').classList.add('nav-link-active');
+        }
+
+        if (window.location.pathname == '/accounts/signup'){
+            document.getElementById('signup-page').classList.add('nav-link-active');
+        }
+
+        if (window.location.pathname == '/accounts/login'){
+            document.getElementById('login-page').classList.add('nav-link-active');
+        }
+
+         if (window.location.pathname == '/new'){
+            document.getElementById('new-page').classList.add('nav-link-active');
+        }
+
+         if (window.location.pathname == '/accounts/logout/'){
+            document.getElementById('logout-page').classList.add('nav-link-active');
+        }
+
     </script>
 </body>
 

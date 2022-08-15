@@ -109,6 +109,7 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 * Missing comma at the end of this line "STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]". [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_5.png)
 * 500 Error because I didn’t have "redirect" imported at top of views.py file. [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_6.png)
 * Error in the terminal. Heroku updated databse so had go to Heroku config vars and copy and paste the new database_url into the env.py to correct. [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_7.png)
+* Space in the token provided. Caused CSS not to display on the front end as expected.  [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_7.png)
 
 
 

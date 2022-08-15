@@ -13,6 +13,28 @@ body {
     color: #245E6B;
 }
 
+a {
+    text-decoration: none;
+    color:#0dcaf0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+a.nav-link {
+    color: #0E070C !important;
+}
+
+a.nav-link:hover {
+    color: #0dcaf0 !important;
+}
+
+a.nav-link-active {
+    color: #0dcaf0 !important;
+}
+
 .image-flash {
     background-color: #245E6B !important;
 }
