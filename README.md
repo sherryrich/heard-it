@@ -176,16 +176,16 @@ to copy the URL
 
 * Code Institute - Database Management Systems - Task Manager Walkthrough
 * Code Institute - 'I think therefore I blog' Django blog project Walkthrough
-* Corey Schafer Python Django Tutorial[YouTube](https://www.youtube.com/c/Coreyms)
-* Create A Simple Blog With Python and Django[YouTube](https://youtu.be/B40bteAMM_M)
+* Corey Schafer Python Django Tutorial [YouTube](https://www.youtube.com/c/Coreyms)
+* Create A Simple Blog With Python and Django [YouTube](https://youtu.be/B40bteAMM_M)
 * The Web Developer Bootcamp 2002 [Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/)
 
 ## Acknowledgements
-To create this website, I relied on material covered in the Full Stack Development course by Code Institute.
-I also sourced information and help from a variety of sources such as Slack Community Channels, Udemy, W3Schools, MDN and YouTube for Online Web Tutorials and resources.
-Martina Terlevic for reviewing my work and providing valuable feedback and advice.
-Gerard McBride my Code Institute / UCD Facilitator and Masterclass tutor.
-Róisín Crilly for taking her free time to walk through P4 experience and logic
+* To create this website, I relied on material covered in the Full Stack Development course by Code Institute.
+* I also sourced information and help from a variety of sources such as Slack Community Channels, Udemy, W3Schools, MDN and YouTube for Online Web Tutorials and resources.
+* Martina Terlevic for reviewing my work and providing valuable feedback and advice.
+* Gerard McBride my Code Institute / UCD Facilitator and Masterclass tutor.
+* Róisín Crilly for taking her free time to walk through P4 experience and help with code / logic.
 
 This project is for educational use only and was created for the Code Institute Module.
 
