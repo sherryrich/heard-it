@@ -85,15 +85,19 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 
 ### W3C CSS Validator
   <details>
-  <summary>Click to see the result</summary>
+  <summary>Click here to see the W3C CSS Validator result</summary>
+
   ![](docs/w3c_css_validator_result.PNG)
+
   </details>
 
 ### Lighthouse
 * Lighthouse Report
  <details>
-  <summary>Click to see the result</summary>
+  <summary>Click here to see the Lighthouse Report</summary>
+
   ![](docs/lighthouse_result.PNG)
+
   </details>
 
 ## Bugs
