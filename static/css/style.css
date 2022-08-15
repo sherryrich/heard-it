@@ -132,8 +132,7 @@ body {
 .btn-signup:hover,
 .create_update_button:hover,
 .btn-signup:active,
-.create_update_button:active,
- {
+.create_update_button:active {
     background-color: #fff;
     color: #47CDEB;
 }
