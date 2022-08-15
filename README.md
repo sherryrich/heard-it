@@ -84,11 +84,11 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 ### The W3C Markup Validator
 
 ### W3C CSS Validator
-* TW3C CSS Validation Service - style.css [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/w3c_css_validator_result.PNG)
+* TW3C CSS Validation Service - style.css [result](https://github.com/sherryrich/heard-it/blob/main/docs/w3c_css_validator_result.PNG)
 
 ### Lighthouse
 * Lighthouse Report
-![Preview](https://github.com/sherryrich/logo-quiz/blob/main/docs/lighthouse_result.PNG)
+![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/lighthouse_result.PNG)
 
 ## Bugs
 * Manage.py was not in the root directory. [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_1.png)
