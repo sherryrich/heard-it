@@ -79,9 +79,13 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 
 #### **Navigation Testing**
 
-### W3C Validator Testing
-
 ### The W3C Markup Validator
+  <details>
+  <summary>Click here to see the W3C Markup Validator result</summary>
+
+  ![](docs/w3c_html_validator_result.PNG)
+
+  </details>
 
 ### W3C CSS Validator
   <details>
