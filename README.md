@@ -11,16 +11,15 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 
 # Table of Contents
 - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [UX](#ux-user-experience)
-    - [User Stories](#user-stories)
- - [Agile Development Process](#agile-development-process)
- - [Skeleton](#skeleton)
- - [Design](#design)
- - [Testing](#testing)
- - [Deployment](#deployment)
- - [Credits](#credits)
- - [Acknowledgements](#acknowledgements)
+- [Introduction](#introduction)
+- [UX](#ux-user-experience)
+- [Agile Development Process](#agile-development-process)
+- [Skeleton](#skeleton)
+- [Design](#design)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Acknowledgements](#acknowledgements)
 
 
 ## UX User Experience
@@ -211,15 +210,14 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 
 * Clone this project by following the steps:
 
-1. Open [GitHub](https://github.com/sherryrich/heard-it)
-2. You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order
+* Open [GitHub](https://github.com/sherryrich/heard-it)
+* You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order
 to copy the URL
-3. Once you click the button the fork will be in your repository
-4. Open a new terminal
-5. Change the current working directory to the location that you want the cloned directory
-6. Type 'git clone' and paste the URL copied in step 3
-7. Press 'Enter' and the project is cloned
-
+* Once you click the button the fork will be in your repository
+* Open a new terminal
+* Change the current working directory to the location that you want the cloned directory
+* Type 'git clone' and paste the URL copied in step 3
+* Press 'Enter' and the project is cloned
 
 
 
