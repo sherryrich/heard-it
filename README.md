@@ -74,14 +74,7 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 
 ### Color Palette
 
-### Lighthouse Report
-* Lighthouse Report
- <details>
-  <summary>Click here to see the Lighthouse Report</summary>
 
-  ![](docs/lighthouse_result.PNG)
-
-  </details>
 
 ## Technologies Used
 ### Languages Used
@@ -110,9 +103,19 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 
 #### **Navigation Testing**
 
+
+### Lighthouse Report
+* Ran Lighthouse reports audits to gauge performance, accessibility, and SEO. Gain actionable and reportable insights in real time.
+ <details>
+  <summary>Click here to see the Lighthouse Report</summary>
+
+  ![](docs/lighthouse_result.PNG)
+
+  </details>
+
 ### The W3C Markup Validator
   <details>
-  <summary>Click here to see the W3C Markup Validator result</summary>
+  <summary>Checked using W3C Markup Validator ensuring there were no errors or warnings present. Click here to see the W3C Markup Validator result</summary>
 
   ![](docs/w3c_html_validator_result.PNG)
 
@@ -120,13 +123,21 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 
 ### W3C CSS Validator
   <details>
-  <summary>Click here to see the W3C CSS Validator result</summary>
+  <summary>Checked using W3C CSS Validator ensuring there were no errors or warnings present. Click here to see the W3C CSS Validator result</summary>
 
   ![](docs/w3c_css_validator_result.PNG)
 
   </details>
 
+### Manual Testing
 
+
+## Future Features
+* Allows users to signup to a newsletter / mailing list.
+* Allow users to report already approved content.
+* host audio content for podcasts.
+* Allows users to filter by most read or most commented on articles.
+* Allow users to contribute to fincially support ongoing publication by way of donations.
 
 ## Bugs
 * Manage.py was not in the root directory. [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_1.png)
