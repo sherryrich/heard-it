@@ -131,9 +131,9 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 
   ### PEP8 online 
   <details>
-  <summary>Checked code for PEP8 requirements</summary>
+  <summary>Checked Python code is formatted according to the PEP 8 standards</summary>
 
-  TBC
+  ![](docs/pep8online_result.PNG)
 
   </details>
 

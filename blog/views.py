@@ -28,6 +28,8 @@ class CreatePostView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
         return super().form_valid(form)
 
 # Updating or Editing Post
+
+
 class UpdatePostView(UserPassesTestMixin, LoginRequiredMixin, SuccessMessageMixin, UpdateView):
     """ If user is logged can update a post """
 
@@ -37,11 +39,9 @@ class UpdatePostView(UserPassesTestMixin, LoginRequiredMixin, SuccessMessageMixi
     success_url = reverse_lazy('home')
     success_message = ("Your Post has been updated")
 
-
     def form_valid(self, form):
         form.instance.author = self.request.user
         return super().form_valid(form)
-
 
     def test_func(self):
         post = self.get_object()
@@ -49,11 +49,12 @@ class UpdatePostView(UserPassesTestMixin, LoginRequiredMixin, SuccessMessageMixi
             return True
         return False
 
- # Deleteing a Post
+# Deleteing a Post
+
 
 class DeletePostView(UserPassesTestMixin, LoginRequiredMixin, SuccessMessageMixin, DeleteView):
     """ If user is logged can delete a his post """
-    
+
     model = Post
     success_url = reverse_lazy('home')
     success_message = ("Your Post has been deleted")
@@ -63,6 +64,7 @@ class DeletePostView(UserPassesTestMixin, LoginRequiredMixin, SuccessMessageMixi
         if self.request.user == post.author:
             return True
         return False
+
 
 def add_article(request):
     """View for creating article posts."""
@@ -85,7 +87,6 @@ def add_article(request):
     return render(request, 'post_form.html', {'new': new})
 
 
-
 def search_articles(request):
     if request.method == 'POST':
         searched = request.POST['searched']
@@ -99,7 +100,6 @@ def search_articles(request):
         return render(request, 'index.html', {'searched': searched, 'post_list': post_list})
     else:
         return render(request, 'index.html', {})
-
 
 
 class PostList(generic.ListView):
@@ -161,8 +161,9 @@ class PostDetail(View):
             },
         )
 
+
 class PostLike(View):
-    
+
     def post(self, request, slug, *args, **kwargs):
         post = get_object_or_404(Post, slug=slug)
         if post.likes.filter(id=request.user.id).exists():
@@ -177,9 +178,10 @@ class about(View):
     """View for displaying the 'About' page."""
     template_name = "about.html"
 
+
 class DeletePostView(UserPassesTestMixin, LoginRequiredMixin, SuccessMessageMixin, DeleteView):
     """ If user is logged can delete a his post """
-    
+
     model = Post
     success_url = reverse_lazy('home')
     success_message = ("Your Post has been deleted")
