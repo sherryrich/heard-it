@@ -33,7 +33,7 @@ a.nav-link:hover {
 }
 
 a.nav-link-active {
-    color: #0dcaf0 !important;
+    color: #245E6B !important;
 }
 
 .image-flash {
@@ -131,11 +131,6 @@ a.nav-link-active {
     color: #445261;
 }
 
-.post-link:hover,
-.page-link {
-    color: #E84610;
-}
-
 .post-title {
     margin-top: 20%;
     margin-left: 5%;
@@ -148,7 +143,7 @@ a.nav-link-active {
 
 .btn-signup,
 .create_update_button {
-    background-color: #47CDEB;
+    background-color: #445261;
     color: #fff;
 }
 
@@ -163,7 +158,7 @@ a.nav-link-active {
 
 
 .link {
-    color: #47CDEB;
+    color: #445261;
     text-decoration: none;
 }
 
