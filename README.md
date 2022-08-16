@@ -14,6 +14,7 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
   - [Introduction](#introduction)
   - [UX](#ux-user-experience)
     - [User Stories](#user-stories)
+ - [Agile Development Process](#agile-development-process)
  - [Skeleton](#skeleton)
  - [Design](#design)
  - [Testing](#testing)
@@ -21,7 +22,6 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
  - [Credits](#credits)
  - [Acknowledgements](#acknowledgements)
 
- ## Design
 
 ## UX User Experience
 ### User Stories
@@ -40,17 +40,36 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 * I want to be able to make changes to the post by editing post(s) / article(s)
 * I want to be able to Remove / delete post(s) / article(s) permentatly
 
+## Agile Development Process
+* I used GitHub for Automated Kanban Project Management. [Click Here](https://github.com/sherryrich/heard-it/blob/main/docs/project_user_stories.PNG)
+* I used GitHub project board to generate user story templates.
+* I used project templates to speed up the process. 
+* I used the automated kanban process and when It is connected to my repo. This allowed me to monitor, track and create user stories.
+* In my developer environment when I used the keyword "resolve #card_number" in my commit message this automatically moved the card would move to completed column.
+
+
 ## Skeleton
 ### Wireframes
-* To view all wireframes both Desktop & mobile [Click Here](https://github.com/sherryrich/heard-it/blob/main/docs/heardit_wireframes.pdf)
+ <details>
+  <summary>Click here to view all wireframes both Desktop & mobile </summary>
 
-![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/homepage.PNG)
+  ![](docs/heardit_wireframes.pdf)
+
+  </details>
+
 
 ## Design
 
 ### Color Palette
 
-## Lighthouse Report
+### Lighthouse Report
+* Lighthouse Report
+ <details>
+  <summary>Click here to see the Lighthouse Report</summary>
+
+  ![](docs/lighthouse_result.PNG)
+
+  </details>
 
 ## Technologies Used
 ### Languages Used
@@ -95,14 +114,7 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 
   </details>
 
-### Lighthouse
-* Lighthouse Report
- <details>
-  <summary>Click here to see the Lighthouse Report</summary>
 
-  ![](docs/lighthouse_result.PNG)
-
-  </details>
 
 ## Bugs
 * Manage.py was not in the root directory. [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_1.png)
@@ -179,6 +191,7 @@ to copy the URL
 * Corey Schafer Python Django Tutorial [YouTube](https://www.youtube.com/c/Coreyms)
 * Create A Simple Blog With Python and Django [YouTube](https://youtu.be/B40bteAMM_M)
 * The Web Developer Bootcamp 2002 [Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/)
+* How to Use GitHub for Automated Kanban Project Management [YouTube](https://www.youtube.com/watch?v=YVFa5VljCDY)
 
 ## Acknowledgements
 * To create this website, I relied on material covered in the Full Stack Development course by Code Institute.
