@@ -73,7 +73,12 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 
 ### Color Palette
 
+ <details>
+  <summary>Color Palette</summary>
 
+  ![](docs/color_palette.PNG)
+
+  </details>
 
 ## Technologies Used
 ### Languages Used
