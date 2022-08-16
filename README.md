@@ -129,6 +129,22 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 
   </details>
 
+  ### PEP8 online 
+  <details>
+  <summary>Checked code for PEP8 requirements</summary>
+
+  TBC
+
+  </details>
+
+  ### JSHint 
+  <details>
+  <summary>Checked JavaScript source code complies with coding rules</summary>
+
+  ![](docs/jshint_result.PNG)
+
+  </details>
+
 ### Manual Testing
 
 
