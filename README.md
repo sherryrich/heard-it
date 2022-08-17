@@ -200,7 +200,7 @@ When a user goes to the Logout they are advised to confirm if they want to sign 
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/logout.PNG)
 
 ### Log out messaging
-When a user logs out sucesfully a message is displayed for 3 seconds to confirm. This message then is removed.
+When a user logs out successfully a message is displayed for 3 seconds to confirm. This message then is removed.
 
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/signout_message.PNG)
 
