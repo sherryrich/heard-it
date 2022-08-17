@@ -195,7 +195,7 @@ When a user logsin sucesfully a message is displayed for 3 seconds to confirm. T
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/signin_message.PNG)
 
 ### Log out
-When a user goes to the Logout they are advised to confirm if they want to sign out before action is taken.
+When a user goes to the Logout they are advised to confirm if they want to sign out before futher action is taken.
 
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/logout.PNG)
 
