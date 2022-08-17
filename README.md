@@ -15,6 +15,7 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 - [UX](#ux-user-experience)
 - [Agile Development Process](#agile-development-process)
 - [Skeleton](#skeleton)
+- [Features](#features)
 - [Design](#design)
 - [Testing](#testing)
 - [Deployment](#deployment)
@@ -150,6 +151,50 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
   </details>
 
 ### Manual Testing
+
+
+## Features
+### Existing Features
+
+### Home Page
+Hompage displays the Navbar Brand / logo name, About, Sign Up & Login options on the left and search function on the right.
+There is a H1 heading describing what the website is about so that users understand the websites function and target audience.
+The main body of the homepage contains 6 articles / posts and once more than 6 articles are posted pagination shows links to the next page.
+Social media network links are displayed in the footer.
+![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/homepage1.PNG)
+
+### Navigation Bar
+When not logged in the Navar displays links to About, Sign Up & Login.
+When a user hovers over navigation links a thin border appears at the bottom of the links to show responsiveness when the user interacts with the link element(s). When a user is logged in the Navar displays links to About, Post Article & Logout.
+![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/navbar.PNG)
+
+### About
+A short introductory page informs the user(s) when the website was formed and what it aims to achieve and industry awards it has won.
+![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/about.PNG)
+
+### Sign up
+When a user goes the Login page they are shown a simple form with username and password to sign in.
+![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/signup.PNG)
+
+### Log in
+When a user goes to the Login page they can enter account details as above. If a user however has not created an account yet, they are advised to sign up first.
+![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/login.PNG)
+
+### Log in messaging 
+When a user logsin sucesfully a message is displayed for 3 seconds to confirm. This message then is removed.
+![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/signin_message.PNG)
+
+### Log out
+When a user goes to the Logout they are advised to confirm if they want to sign out before action is taken.
+![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/logout.PNG)
+
+### Log out messaging
+When a user logs out sucesfully a message is displayed for 3 seconds to confirm. This message then is removed.
+![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/signout_message.PNG)
+
+### Social Links:
+The footer contains various social network links (Facebook, Twitter, Instagram and YouTube) and Copyright information.
+![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/footer.PNG)
 
 
 ## Future Features
