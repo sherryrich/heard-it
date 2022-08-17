@@ -101,6 +101,8 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 * [Google Chrome Dev tools](https://developer.chrome.com/docs/devtools/) for debugging.
 * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) used for audits to measure the quality of web pages.
 * [Heroku](https://www.heroku.com/) used to deploy this app, a cloud platform as a service supporting several programming languages.
+* [Pexels](https://www.pexels.com/) Images for this project were sourced from Pexels.
+* [Unsplash](https://unsplash.com/) Images for this project were sourced from Unsplash.
 * [WAVE](https://wave.webaim.org/extension/) Browser Extension testing.
 
 
