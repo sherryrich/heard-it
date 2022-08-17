@@ -30,7 +30,12 @@ class CreatePostView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
 # Updating or Editing Post
 
 
-class UpdatePostView(UserPassesTestMixin, LoginRequiredMixin, SuccessMessageMixin, UpdateView):
+class UpdatePostView(
+    UserPassesTestMixin,
+    LoginRequiredMixin,
+    SuccessMessageMixin,
+    UpdateView
+):
     """ If user is logged can update a post """
 
     model = Post
@@ -52,7 +57,12 @@ class UpdatePostView(UserPassesTestMixin, LoginRequiredMixin, SuccessMessageMixi
 # Deleteing a Post
 
 
-class DeletePostView(UserPassesTestMixin, LoginRequiredMixin, SuccessMessageMixin, DeleteView):
+class DeletePostView(
+    UserPassesTestMixin,
+    LoginRequiredMixin,
+    SuccessMessageMixin,
+    DeleteView
+):
     """ If user is logged can delete a his post """
 
     model = Post
@@ -97,7 +107,9 @@ def search_articles(request):
             Q(title__icontains=searched) |
             Q(author__username__icontains=searched)).filter(status=1)
 
-        return render(request, 'index.html', {'searched': searched, 'post_list': post_list})
+        return render(
+            request, 'index.html',
+            {'searched': searched, 'post_list': post_list})
     else:
         return render(request, 'index.html', {})
 
@@ -179,7 +191,12 @@ class about(View):
     template_name = "about.html"
 
 
-class DeletePostView(UserPassesTestMixin, LoginRequiredMixin, SuccessMessageMixin, DeleteView):
+class DeletePostView(
+    UserPassesTestMixin,
+    LoginRequiredMixin,
+    SuccessMessageMixin,
+    DeleteView
+):
     """ If user is logged can delete a his post """
 
     model = Post
