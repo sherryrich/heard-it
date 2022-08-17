@@ -166,34 +166,47 @@ Social media network links are displayed in the footer.
 ### Navigation Bar
 When not logged in the Navar displays links to About, Sign Up & Login.
 When a user hovers over navigation links a thin border appears at the bottom of the links to show responsiveness when the user interacts with the link element(s). When a user is logged in the Navar displays links to About, Post Article & Logout.
+
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/navbar.PNG)
+
+### Search Page
+When a user searchs a particular word the result will return articles which contain the word searched with the string "You searched for". Example below user searched "jobs"
+
+![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/search.PNG)
 
 ### About
 A short introductory page informs the user(s) when the website was formed and what it aims to achieve and industry awards it has won.
+
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/about.PNG)
 
 ### Sign up
 When a user goes the Login page they are shown a simple form with username and password to sign in.
+
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/signup.PNG)
 
 ### Log in
 When a user goes to the Login page they can enter account details as above. If a user however has not created an account yet, they are advised to sign up first.
+
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/login.PNG)
 
 ### Log in messaging 
 When a user logsin sucesfully a message is displayed for 3 seconds to confirm. This message then is removed.
+
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/signin_message.PNG)
 
 ### Log out
 When a user goes to the Logout they are advised to confirm if they want to sign out before action is taken.
+
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/logout.PNG)
 
 ### Log out messaging
 When a user logs out sucesfully a message is displayed for 3 seconds to confirm. This message then is removed.
+
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/signout_message.PNG)
 
 ### Social Links:
 The footer contains various social network links (Facebook, Twitter, Instagram and YouTube) and Copyright information.
+
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/footer.PNG)
 
 
