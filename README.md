@@ -69,6 +69,14 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 
   </details>
 
+### Navigation
+
+<details>
+  <summary>Click here to view website navigation </summary>
+
+  ![](docs/navigation.drawio.png)
+
+</details>
 
 ## Design
 
