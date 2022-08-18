@@ -184,6 +184,10 @@ When a user searchs a particular word the result will return articles which cont
 
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/search.PNG)
 
+### Search Article - No Results
+[Preview](https://github.com/sherryrich/heard-it/blob/main/docs/search_no_results.PNG)
+
+
 ### About
 A short introductory page informs the user(s) when the website was formed and what it aims to achieve and industry awards it has won.
 
@@ -214,7 +218,25 @@ When a user logs out successfully a message is displayed for 3 seconds to confir
 
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/signout_message.PNG)
 
-### Social Links:
+### Admin - Superuser Access
+[Preview](https://github.com/sherryrich/heard-it/blob/main/docs/admin.PNG)
+
+### Post Article
+[Preview](https://github.com/sherryrich/heard-it/blob/main/docs/post_article.PNG)
+
+### Edit / Delete Article
+[Preview](https://github.com/sherryrich/heard-it/blob/main/docs/user_article_update_delete.PNG)
+
+
+### Article View
+[Preview](https://github.com/sherryrich/heard-it/blob/main/docs/article_view_1.PNG)
+
+[Preview](https://github.com/sherryrich/heard-it/blob/main/docs/article_view_2.PNG)
+
+### Comment Awaiting Approval
+[Preview](https://github.com/sherryrich/heard-it/blob/main/docs/comment_awaiting_approval.PNG)
+
+### Social Links
 The footer contains various social network links (Facebook, Twitter, Instagram and YouTube) and Copyright information.
 
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/footer.PNG)
