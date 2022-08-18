@@ -185,7 +185,7 @@ When a user searchs a particular word the result will return articles which cont
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/search.PNG)
 
 ### Search Article - No Results
-!Preview](https://github.com/sherryrich/heard-it/blob/main/docs/search_no_results.PNG)
+![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/search_no_results.PNG)
 
 
 ### About
