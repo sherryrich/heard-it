@@ -197,3 +197,9 @@ a.nav-link-active {
 .error_code_message {
     color: #47CDEB;
 }
+
+@media (max-width: 700px) {
+    .search_articles {
+        width: 200px !important;
+    }
+}
