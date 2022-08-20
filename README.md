@@ -117,11 +117,14 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 ## Testing
 
 
-
-|  | Chrome | Firefox | Edge | Safari | Pass/Fail |
-| ------------- |-------------| -----|  ---------- |  -----| :----: |
-| Expected Appearance   | yes | yes  | yes  | yes | Pass |
-| Expected Layout   | yes | yes  | yes  | yes | Pass |
+### Validation Testing
+|  | Validations |  Pass/Fail |
+| ------------- |-------------|  :----: |
+| Chrome   | Lighthouse Repor | Pass |
+| HTML   | W3C Markup Validator | Pass |
+| CSS   | W3C CSS Validator | Pass |
+| Python   | PEP8 online | Pass |
+| JS   | JSHint | Pass |
 
 ### Lighthouse Report
 * Ran Lighthouse reports audits to gauge performance, accessibility, and SEO. Gain actionable and reportable insights in real time.
