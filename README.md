@@ -116,8 +116,12 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 
 ## Testing
 
-#### **Navigation Testing**
 
+
+|  | Chrome | Firefox | Edge | Safari | Pass/Fail |
+| ------------- |-------------| -----|  ---------- |  -----| :----: |
+| Expected Appearance   | yes | yes  | yes  | yes | Pass |
+| Expected Layout   | yes | yes  | yes  | yes | Pass |
 
 ### Lighthouse Report
 * Ran Lighthouse reports audits to gauge performance, accessibility, and SEO. Gain actionable and reportable insights in real time.
@@ -161,6 +165,16 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
   </details>
 
 ### Manual Testing
+### Responsiveness
+### Browser Compatibiltiy
+
+|  | Chrome | Firefox | Edge | Safari | Pass/Fail |
+| ------------- |-------------| -----|  ---------- |  -----| :----: |
+| Expected Appearance   | yes | yes  | yes  | yes | Pass |
+| Expected Layout   | yes | yes  | yes  | yes | Pass |
+
+
+### Errors encountered during development
 
 
 ## Features
