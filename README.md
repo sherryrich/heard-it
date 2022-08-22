@@ -9,12 +9,15 @@ HEARD|it is an Irish technology news website which encourages users to Create, R
 
 ### Live Website
 A deployed link to the website can be found [here](https://heard-it.herokuapp.com/)
+
 ### Video
-A video turorial outlining some features can be viewed [here](https://res.cloudinary.com/dzyxqqpzh/video/upload/v1661179800/bandicam_2022-08-22_15-47-32-821_ch0xqw.mp4)
+A video tutorial outlining some features can be viewed [here](https://res.cloudinary.com/dzyxqqpzh/video/upload/v1661179800/bandicam_2022-08-22_15-47-32-821_ch0xqw.mp4)
+
 ### QR Code
+
  <details>
   <summary>Click here to view QR Code</summary>
-  
+
     ![](docs/qrcode.PNG)
 
   </details>
