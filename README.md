@@ -16,11 +16,12 @@ A video tutorial outlining some features can be viewed [here](https://res.cloudi
 ### QR Code
 
  <details>
-  <summary>Click here to view QR Code</summary>
+  <summary>Click here to see QR Code</summary>
 
-    ![](docs/qrcode.PNG)
+  ![](docs/qrcode.PNG)
 
   </details>
+
 
 # Table of Contents
 - [Table of Contents](#table-of-contents)
@@ -87,7 +88,7 @@ A video tutorial outlining some features can be viewed [here](https://res.cloudi
 <details>
   <summary>Click here to view website navigation </summary>
 
-  ![](docs/navigation.drawio.png)
+    ![](docs/navigation.drawio.png)
 
 </details>
 
