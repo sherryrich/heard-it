@@ -253,6 +253,16 @@ The footer contains various social network links (Facebook, Twitter, Instagram a
 
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/footer.PNG)
 
+### 404 Page
+A 404 page was created to handle potential user navigational errors and give user a linkg to re-direct them back to the homepage.
+
+![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/404.PNG)
+
+
+### 500 Page
+A 500 server error page was created to handle internal server errors.
+
+![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/500.PNG)
 
 ## Future Features
 * Allows users to signup to a newsletter / mailing list.
