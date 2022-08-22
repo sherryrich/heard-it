@@ -50,9 +50,9 @@ A video tutorial outlining some features can be viewed [here](https://res.cloudi
 * I want to be able create, read, edit and delete my post(s) / article(s)
 * I want to be able to leave comments on all posts
 * I want to be able to Like & unlike post(s) / article(s)
-* I want to be able to view all other posts / articles by using the search functionailty
+* I want to be able to view all other posts / articles by using the search functionality
 * I want to be able to make changes to the post by editing post(s) / article(s)
-* I want to be able to Remove / delete post(s) / article(s) permentatly
+* I want to be able to Remove / delete post(s) / article(s) permanently
 
 ## Agile Development Process
 * I used GitHub for Automated Kanban Project Management. [Click Here](https://github.com/sherryrich/heard-it/blob/main/docs/project_user_stories.PNG)
@@ -88,9 +88,9 @@ A video tutorial outlining some features can be viewed [here](https://res.cloudi
 <details>
   <summary>Click here to view website navigation </summary>
 
-    ![](docs/navigation.drawio.png)
+  ![](docs/navigation.drawio.png)
 
-</details>
+  </details>
 
 ### Color Palette
 
@@ -109,20 +109,20 @@ A video tutorial outlining some features can be viewed [here](https://res.cloudi
 ### Existing Features
 
 ### Home Page
-Hompage displays the Navbar Brand / logo name, About, Sign Up & Login options on the left and search function on the right.
+Homepage displays the Navbar Brand / logo name, About, Sign Up & Login options on the left and search function on the right.
 There is a H1 heading describing what the website is about so that users understand the websites function and target audience.
 The main body of the homepage contains 6 articles / posts and once more than 6 articles are posted pagination shows links to the next page.
 Social media network links are displayed in the footer.
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/homepage1.PNG)
 
 ### Navigation Bar
-When not logged in the Navar displays links to About, Sign Up & Login.
-When a user hovers over navigation links a thin border appears at the bottom of the links to show responsiveness when the user interacts with the link element(s). When a user is logged in the Navar displays links to About, Post Article & Logout.
+When not logged in the Navbar displays links to About, Sign Up & Login.
+When a user hovers over navigation links a thin border appears at the bottom of the links to show responsiveness when the user interacts with the link element(s). When a user is logged in the Navbar displays links to About, Post Article & Logout.
 
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/navbar.PNG)
 
 ### Search Page
-When a user searchs a particular word the result will return articles which contain the word searched with the string "You searched for". Example below user searched "jobs"
+When a user searches a particular word the result will return articles which contain the word searched with the string "You searched for". Example below user searched "jobs"
 
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/search.PNG)
 
@@ -146,12 +146,12 @@ When a user goes to the Login page they can enter account details as above. If a
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/login.PNG)
 
 ### Log in messaging 
-When a user logsin sucesfully a message is displayed for 3 seconds to confirm. This message then is removed.
+When a user logs in successfully a message is displayed for 3 seconds to confirm. This message then is removed.
 
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/signin_message.PNG)
 
 ### Log out
-When a user goes to the Logout they are advised to confirm if they want to sign out before futher action is taken.
+When a user goes to the Logout they are advised to confirm if they want to sign out before further action is taken.
 
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/logout.PNG)
 
@@ -184,7 +184,7 @@ The footer contains various social network links (Facebook, Twitter, Instagram a
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/footer.PNG)
 
 ### 404 Page
-A 404 page was created to handle potential user navigational errors and give user a linkg to re-direct them back to the homepage.
+A 404 page was created to handle potential user navigational errors and give user a link to direct them back to the homepage.
 
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/404.PNG)
 
@@ -197,22 +197,22 @@ A 500 server error page was created to handle internal server errors.
 ## Future Features
 * Allows users to signup to a newsletter / mailing list.
 * Allow users to report already approved content.
-* host audio content for podcasts.
+* Host audio content for podcasts.
 * Allows users to filter by most read or most commented on articles.
-* Allow users to contribute to fincially support ongoing publication by way of donations.
+* Allow users to contribute to financially support ongoing publication by way of donations.
 
 ## Bugs encountered during development
 * Manage.py was not in the root directory. [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_1.png)
 * App wasn’t deploying to heroku correctly. Updated Procfile from "heard-it" to "heardit"
 * Update your requirements.txt - pip3 freeze > requirements.txt and try again. I had a typo in requirements without .txt. [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_2.png)
-* Template litteral typo error "$" instead of "%". [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_3.png)
+* Template literal typo error "$" instead of "%". [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_3.png)
 * Error in views.py. '-created' versus '-created_on'. [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_4.png)
 * Missing comma at the end of this line "STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]". [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_5.png)
 * 500 Error because I didn’t have "redirect" imported at top of views.py file. [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_6.png)
-* Error in the terminal. Heroku updated databse so had go to Heroku config vars and copy and paste the new database_url into the env.py to correct. [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_7.png)
+* Error in the terminal. Heroku updated database so had go to Heroku config vars and copy and paste the new database_url into the env.py to correct. [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_7.png)
 * Space in the token provided. Caused CSS not to display on the front end as expected. [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_8.png)
 * Missing closing span. Caused HTML to fail validator rules. [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_9.png)
-* Search Button was missing on smaller devices so I added a media query and reduced the size of the ellement on smaller devices. Please see screen shots [Before](https://github.com/sherryrich/heard-it/blob/main/docs/search_box_before.PNG) and [After](https://github.com/sherryrich/heard-it/blob/main/docs/search_box_after.PNG). 
+* Search Button was missing on smaller devices so I added a media query and reduced the size of the element on smaller devices. Please see screen shots [Before](https://github.com/sherryrich/heard-it/blob/main/docs/search_box_before.PNG) and [After](https://github.com/sherryrich/heard-it/blob/main/docs/search_box_after.PNG). 
 
 
 ### Unfixed Bugs
@@ -249,7 +249,7 @@ No known unfixed bugs present at the time of submission
 ### Validation Testing
 |  | Validations |  Pass/Fail |
 | ------------- |-------------|  :----: |
-| Chrome   | Lighthouse Repor | Pass |
+| Chrome   | Lighthouse Report | Pass |
 | HTML   | W3C Markup Validator | Pass |
 | CSS   | W3C CSS Validator | Pass |
 | Python   | PEP8 online | Pass |
@@ -298,7 +298,7 @@ No known unfixed bugs present at the time of submission
 
 ### Manual Testing
 ### Responsiveness
-### Browser Compatibiltiy
+### Browser Compatibility
 
 |  | Chrome | Firefox | Edge | Safari | Pass/Fail |
 | ------------- |-------------| -----|  ---------- |  -----| :----: |
@@ -308,7 +308,7 @@ No known unfixed bugs present at the time of submission
 
 
 ## Deployment
-* This project was developed using a GitPod workspace. The code was commited to Git and pushed to GitHub using the terminal.
+* This project was developed using a GitPod workspace. The code was committed to Git and pushed to GitHub using the terminal.
 
 * Log in to [Heroku](https://id.heroku.com/login) or create an account
 * On the main page click New and Create New App
