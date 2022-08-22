@@ -14,9 +14,9 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 - [Introduction](#introduction)
 - [UX](#ux-user-experience)
 - [Agile Development Process](#agile-development-process)
-- [Skeleton](#skeleton)
-- [Features](#features)
 - [Design](#design)
+- [Features](#features)
+- [Technologies Used](###technologies-used)
 - [Testing](#testing)
 - [Deployment](#deployment)
 - [Credits](#credits)
@@ -48,7 +48,7 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 * In my developer environment when I used the keyword "resolve #card_number" in my commit message this automatically moved the card would move to completed column.
 
 
-## Skeleton
+## Design
 ### Wireframes
  <details>
   <summary>Click here to view all wireframes both Desktop & mobile </summary>
@@ -77,8 +77,6 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
   ![](docs/navigation.drawio.png)
 
 </details>
-
-## Design
 
 ### Color Palette
 
@@ -177,9 +175,6 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 | Expected Layout   | yes | yes  | yes  | yes | Pass |
 
 
-### Errors encountered during development
-
-
 ## Features
 ### Existing Features
 
@@ -266,7 +261,7 @@ The footer contains various social network links (Facebook, Twitter, Instagram a
 * Allows users to filter by most read or most commented on articles.
 * Allow users to contribute to fincially support ongoing publication by way of donations.
 
-## Bugs
+## Bugs encountered during development
 * Manage.py was not in the root directory. [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_1.png)
 * App wasn’t deploying to heroku correctly. Updated Procfile from "heard-it" to "heardit"
 * Update your requirements.txt - pip3 freeze > requirements.txt and try again. I had a typo in requirements without .txt. [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_2.png)
@@ -280,7 +275,8 @@ The footer contains various social network links (Facebook, Twitter, Instagram a
 * Search Button was missing on smaller devices so I added a media query and reduced the size of the ellement on smaller devices. Please see screen shots [Before](https://github.com/sherryrich/heard-it/blob/main/docs/search_box_before.PNG) and [After](https://github.com/sherryrich/heard-it/blob/main/docs/search_box_after.PNG). 
 
 
-### Unfix Bugs
+### Unfixed Bugs
+No known unfixed bugs present at the time of submission
 
 ## Deployment
 * This project was developed using a GitPod workspace. The code was commited to Git and pushed to GitHub using the terminal.
