@@ -87,92 +87,8 @@ A deployed link to the website can be found [here](https://heard-it.herokuapp.co
 
   </details>
 
-## Technologies Used
-### Languages Used
-  * [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
-  * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
-  * [JavaScript](https://www.javascript.com/)
-  * [Python](https://www.python.org/)
-
-### Frameworks, Libraries & Programs Used
-* [amiresponsive](http://ami.responsivedesign.is/) to see how responsive the site is on different devices.
-* [Balsamiq](https://balsamiq.com/) was used to create the Wireframes.
-* [Cloudinary](https://cloudinary.com/) was used to upload, store, manage, manipulate, and deliver images.
-* [Color-hex](https://www.color-hex.com/) once I identified the colors I wanted I used color-hex to generate the palette.
-* [Django](https://www.djangoproject.com/) is a free and open-source, Python-based web framework that follows the model–template–views architectural pattern.
-* [Font Awesome](https://fontawesome.com/) was used for icons for aesthetic and UX purposes on the buttons.
-* [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-* [GitHub](https://github.com/) GitHub is used to store the projects code after being pushed from Git.
-* [Gitpod](https://www.gitpod.io/) An online IDE linked to the GitHub repository used to write my code.
-* [Google Chrome Dev tools](https://developer.chrome.com/docs/devtools/) for debugging.
-* [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) used for audits to measure the quality of web pages.
-* [Heroku](https://www.heroku.com/) used to deploy this app, a cloud platform as a service supporting several programming languages.
-* [Pexels](https://www.pexels.com/) Images for this project were sourced from Pexels.
-* [Unsplash](https://unsplash.com/) Images for this project were sourced from Unsplash.
-* [WAVE](https://wave.webaim.org/extension/) Browser Extension testing.
 
 
-## Testing
-
-
-### Validation Testing
-|  | Validations |  Pass/Fail |
-| ------------- |-------------|  :----: |
-| Chrome   | Lighthouse Repor | Pass |
-| HTML   | W3C Markup Validator | Pass |
-| CSS   | W3C CSS Validator | Pass |
-| Python   | PEP8 online | Pass |
-| JS   | JSHint | Pass |
-
-### Lighthouse Report
-* Ran Lighthouse reports audits to gauge performance, accessibility, and SEO. Gain actionable and reportable insights in real time.
- <details>
-  <summary>Click here to see the Lighthouse Report</summary>
-
-  ![](docs/lighthouse_result.PNG)
-
-  </details>
-
-### The W3C Markup Validator
-  <details>
-  <summary>Checked using W3C Markup Validator ensuring there were no errors or warnings present. Click here to see the W3C Markup Validator result</summary>
-
-  ![](docs/w3c_html_validator_result.PNG)
-
-  </details>
-
-### W3C CSS Validator
-  <details>
-  <summary>Checked using W3C CSS Validator ensuring there were no errors or warnings present. Click here to see the W3C CSS Validator result</summary>
-
-  ![](docs/w3c_css_validator_result.PNG)
-
-  </details>
-
-  ### PEP8 online 
-  <details>
-  <summary>Checked Python code is formatted according to the PEP 8 standards</summary>
-
-  ![](docs/pep8online_result.PNG)
-
-  </details>
-
-  ### JSHint 
-  <details>
-  <summary>Checked JavaScript source code complies with coding rules</summary>
-
-  ![](docs/jshint_result.PNG)
-
-  </details>
-
-### Manual Testing
-### Responsiveness
-### Browser Compatibiltiy
-
-|  | Chrome | Firefox | Edge | Safari | Pass/Fail |
-| ------------- |-------------| -----|  ---------- |  -----| :----: |
-| Expected Appearance   | yes | yes  | yes  | yes | Pass |
-| Expected Layout   | yes | yes  | yes  | yes | Pass |
 
 
 ## Features
@@ -287,6 +203,96 @@ A 500 server error page was created to handle internal server errors.
 
 ### Unfixed Bugs
 No known unfixed bugs present at the time of submission
+
+## Technologies Used
+### Languages Used
+  * [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+  * [JavaScript](https://www.javascript.com/)
+  * [Python](https://www.python.org/)
+
+### Frameworks, Libraries & Programs Used
+* [amiresponsive](http://ami.responsivedesign.is/) to see how responsive the site is on different devices.
+* [Balsamiq](https://balsamiq.com/) was used to create the Wireframes.
+* [Cloudinary](https://cloudinary.com/) was used to upload, store, manage, manipulate, and deliver images.
+* [Color-hex](https://www.color-hex.com/) once I identified the colors I wanted I used color-hex to generate the palette.
+* [Django](https://www.djangoproject.com/) is a free and open-source, Python-based web framework that follows the model–template–views architectural pattern.
+* [Font Awesome](https://fontawesome.com/) was used for icons for aesthetic and UX purposes on the buttons.
+* [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+* [GitHub](https://github.com/) GitHub is used to store the projects code after being pushed from Git.
+* [Gitpod](https://www.gitpod.io/) An online IDE linked to the GitHub repository used to write my code.
+* [Google Chrome Dev tools](https://developer.chrome.com/docs/devtools/) for debugging.
+* [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) used for audits to measure the quality of web pages.
+* [Heroku](https://www.heroku.com/) used to deploy this app, a cloud platform as a service supporting several programming languages.
+* [Pexels](https://www.pexels.com/) Images for this project were sourced from Pexels.
+* [Unsplash](https://unsplash.com/) Images for this project were sourced from Unsplash.
+* [WAVE](https://wave.webaim.org/extension/) Browser Extension testing.
+
+
+
+## Testing
+
+
+### Validation Testing
+|  | Validations |  Pass/Fail |
+| ------------- |-------------|  :----: |
+| Chrome   | Lighthouse Repor | Pass |
+| HTML   | W3C Markup Validator | Pass |
+| CSS   | W3C CSS Validator | Pass |
+| Python   | PEP8 online | Pass |
+| JS   | JSHint | Pass |
+
+### Lighthouse Report
+* Ran Lighthouse reports audits to gauge performance, accessibility, and SEO. Gain actionable and reportable insights in real time.
+ <details>
+  <summary>Click here to see the Lighthouse Report</summary>
+
+  ![](docs/lighthouse_result.PNG)
+
+  </details>
+
+### The W3C Markup Validator
+  <details>
+  <summary>Checked using W3C Markup Validator ensuring there were no errors or warnings present. Click here to see the W3C Markup Validator result</summary>
+
+  ![](docs/w3c_html_validator_result.PNG)
+
+  </details>
+
+### W3C CSS Validator
+  <details>
+  <summary>Checked using W3C CSS Validator ensuring there were no errors or warnings present. Click here to see the W3C CSS Validator result</summary>
+
+  ![](docs/w3c_css_validator_result.PNG)
+
+  </details>
+
+  ### PEP8 online 
+  <details>
+  <summary>Checked Python code is formatted according to the PEP 8 standards</summary>
+
+  ![](docs/pep8online_result.PNG)
+
+  </details>
+
+  ### JSHint 
+  <details>
+  <summary>Checked JavaScript source code complies with coding rules</summary>
+
+  ![](docs/jshint_result.PNG)
+
+  </details>
+
+### Manual Testing
+### Responsiveness
+### Browser Compatibiltiy
+
+|  | Chrome | Firefox | Edge | Safari | Pass/Fail |
+| ------------- |-------------| -----|  ---------- |  -----| :----: |
+| Expected Appearance   | yes | yes  | yes  | yes | Pass |
+| Expected Layout   | yes | yes  | yes  | yes | Pass |
+
+
 
 ## Deployment
 * This project was developed using a GitPod workspace. The code was commited to Git and pushed to GitHub using the terminal.
