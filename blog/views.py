@@ -208,3 +208,17 @@ class DeletePostView(
         if self.request.user == post.author:
             return True
         return False
+
+def contact(request):
+    submitted = False
+    if request.method == "POST":
+        form = ContactForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return HttpResponseRedirect('contact?submitted=True')
+    else:
+        form = ContactForm
+        if 'submitted' in request.GET:
+            submitted = True
+            
+    return render(request, 'contact.html', {'form':form})

@@ -13,4 +13,6 @@ urlpatterns = [
     path('new', views.CreatePostView.as_view(), name='new'),
     path('<slug:slug>/update/', UpdatePostView.as_view(), name='post_update'),
     path('<slug:slug>/delete/', DeletePostView.as_view(), name='post_delete'),
+    path('contact', views.generic.TemplateView.as_view(
+        template_name='contact.html'), name='contact'),
 ]
