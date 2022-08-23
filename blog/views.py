@@ -5,7 +5,7 @@ from django.urls import reverse_lazy
 from django.views import generic, View
 from .models import Post
 from .forms import CommentForm
-from django.forms import ModelForm
+from django.forms import Form
 from django.http import HttpResponseRedirect
 from django.db.models import Q
 from django.contrib import messages
@@ -217,8 +217,8 @@ def contact(request):
             form.save()
             return HttpResponseRedirect('contact?submitted=True')
     else:
-        form = ContactForm
+        form = ContactForm()
         if 'submitted' in request.GET:
             submitted = True
             
-    return render(request, 'contact.html', {'form':form})
+    return render(request, 'contact.html', {'contact': form})
