@@ -1,6 +1,7 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en" class="h-100">
+
 <head>
     <title>Heard | IT</title>
     <meta charset="UTF-8">
@@ -28,7 +29,8 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container-fluid">
-            <a class="navbar-brand" href="{% url 'home' %}"><span class="brand">HEARD<span class="logo-o">|it</span></span></a>
+            <a class="navbar-brand" href="{% url 'home' %}"><span class="brand">HEARD<span
+                        class="logo-o">|it</span></span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -52,13 +54,13 @@
                     <li class="nav-item">
                         <a id="login-page" class="nav-link" href="{% url 'account_login' %}">Login</a>
                     </li>
-                   
+
                     {% endif %}
                 </ul>
                 <form class="d-flex" method=POST action="{% url 'search_articles' %}">
                     {% csrf_token %}
-                    <input class="form-control me-2 search_articles" type="search" placeholder="Search Articles" aria-label="Search Articles"
-                        name="searched" style="width: 600px;">
+                    <input class="form-control me-2 search_articles" type="search" placeholder="Search Articles"
+                        aria-label="Search Articles" name="searched" style="width: 600px;">
                     <button class="btn btn-outline-info search_button" type="submit">Search</button>
                 </form>
             </div>
@@ -78,7 +80,6 @@
         </div>
     </div>
 
-
     <main class="flex-shrink-0 main-bg">
         {% block content %}
         <!-- Content Goes here -->
@@ -89,11 +90,15 @@
     <footer class="footer mt-auto py-3 dark-bg">
         <p class="m-0 text-center text-white">&copy; Richard Sherry - for educational purposes only</p>
         <p class="m-0 text-center text-white">Follow us:
-            <a href="https://www.facebook.com/" class="social" target="_blank" rel="noopener" aria-label="link to facebook (opens in a new tab)"><i class="fab fa-facebook-f ms-3"></i></a>
-            <a href="https://www.twitter.com/" class="social" target="_blank" rel="noopener" aria-label="link to twitter (opens in a new tab)"><i class="fab fa-twitter ms-3"></i></a>
-            <a href="https://www.instagram.com/" class="social" target="_blank" rel="noopener" aria-label="link to instagram (opens in a new tab)"><i class="fab fa-instagram ms-3"></i></a>
-            <a href="https://www.youtube.com/" class="social" target="_blank" rel="noopener" aria-label="link to youtube (opens in a new tab)"><i class="fab fa-youtube ms-3"></i></a>
-          
+            <a href="https://www.facebook.com/" class="social" target="_blank" rel="noopener"
+                aria-label="link to facebook (opens in a new tab)"><i class="fab fa-facebook-f ms-3"></i></a>
+            <a href="https://www.twitter.com/" class="social" target="_blank" rel="noopener"
+                aria-label="link to twitter (opens in a new tab)"><i class="fab fa-twitter ms-3"></i></a>
+            <a href="https://www.instagram.com/" class="social" target="_blank" rel="noopener"
+                aria-label="link to instagram (opens in a new tab)"><i class="fab fa-instagram ms-3"></i></a>
+            <a href="https://www.youtube.com/" class="social" target="_blank" rel="noopener"
+                aria-label="link to youtube (opens in a new tab)"><i class="fab fa-youtube ms-3"></i></a>
+
         </p>
     </footer>
     <script>
@@ -105,26 +110,25 @@
 
         // Highlight active pages.
 
-        if (window.location.pathname == '/about'){
+        if (window.location.pathname == '/about') {
             document.getElementById('about-page').classList.add('nav-link-active');
         }
 
-        if (window.location.pathname == '/accounts/signup'){
+        if (window.location.pathname == '/accounts/signup') {
             document.getElementById('signup-page').classList.add('nav-link-active');
         }
 
-        if (window.location.pathname == '/accounts/login'){
+        if (window.location.pathname == '/accounts/login') {
             document.getElementById('login-page').classList.add('nav-link-active');
         }
 
-         if (window.location.pathname == '/new'){
+        if (window.location.pathname == '/new') {
             document.getElementById('new-page').classList.add('nav-link-active');
         }
 
-         if (window.location.pathname == '/accounts/logout/'){
+        if (window.location.pathname == '/accounts/logout/') {
             document.getElementById('logout-page').classList.add('nav-link-active');
         }
-
     </script>
 </body>
 

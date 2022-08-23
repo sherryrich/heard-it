@@ -23,7 +23,6 @@ a:hover {
     color: #0dcaf0 !important;
 }
 
-
 a.nav-link {
     color: #0E070C !important;
 }
@@ -155,8 +154,6 @@ a.nav-link-active {
     color: #47CDEB;
 }
 
-
-
 .link {
     color: #445261;
     text-decoration: none;
@@ -180,7 +177,6 @@ a.nav-link-active {
     background: transparent;
     border: none;
 }
-
 
 .footer.social:hover {
     color: #E84610;
