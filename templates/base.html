@@ -54,11 +54,10 @@
                     <li class="nav-item">
                         <a id="login-page" class="nav-link" href="{% url 'account_login' %}">Login</a>
                     </li>
+                    {% endif %}
                     <li class="nav-item">
                         <a id="login-page" class="nav-link" href="{% url 'contact' %}">Contact</a>
                     </li>
-
-                    {% endif %}
                 </ul>
                 <form class="d-flex" method=POST action="{% url 'search_articles' %}">
                     {% csrf_token %}
