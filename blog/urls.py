@@ -1,8 +1,6 @@
 from . import views
 from django.urls import path, reverse
 from django.views.generic import TemplateView
-# from.views import CreatePostView, UpdatePostView, DeletePostView, 
-# from .views contact
 
 
 urlpatterns = [
