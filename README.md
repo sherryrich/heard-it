@@ -182,9 +182,11 @@ When a user logs out successfully a message is displayed for 3 seconds to confir
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/comment_awaiting_approval.PNG)
 
 ### Contact Page
+Users can contact the website via a simply form with name, email and body of message. Once the form is sucesfully sent a message is shown to the user to inform them.
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/contact_page.PNG)
 
 ### Contact Page Djano Admin
+Messaging sent via the contact page is stored in Django admin under blogs - contact. The name, email, body of message and the date sent is stored.
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/contact_page_django_admin.PNG)
 
 ### Social Links
