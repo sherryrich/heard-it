@@ -70,7 +70,8 @@ A video tutorial outlining some features can be viewed [here](https://res.cloudi
   ![](docs/wireframe_homepage.PNG)
   ![](docs/wireframe_about.PNG)
   ![](docs/wireframe_signup.PNG)
-  ![](docs/wireframe_login.PNGG)
+  ![](docs/wireframe_login.PNG)
+   ![](docs/wireframe_contact.PNG)
   ![](docs/wireframe_new.PNG)
   ![](docs/wireframe_logout.PNG)
 
@@ -78,6 +79,7 @@ A video tutorial outlining some features can be viewed [here](https://res.cloudi
   ![](docs/wireframe_about_mobile.PNG)
   ![](docs/wireframe_signup_mobile.PNG)
   ![](docs/wireframe_signin_mobile.PNG)
+  ![](docs/wireframe_contact_mobile.PNG)
   ![](docs/wireframe_post_mobile.PNG)
   ![](docs/wireframe_signout_mobile.PNG)
 
