@@ -85,6 +85,16 @@ A video tutorial outlining some features can be viewed [here](https://res.cloudi
 
   </details>
 
+### Database Schema
+
+ <details>
+  <summary>Database Schema</summary>
+
+  ![](docs/database_schema.PNG)
+
+  </details>
+
+
 ### Navigation
 
 <details>
