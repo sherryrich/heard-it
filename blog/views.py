@@ -4,7 +4,7 @@ from django.contrib.messages.views import SuccessMessageMixin
 from django.urls import reverse_lazy
 from django.views import generic, View
 from .models import Post
-from .forms import CommentForm
+from .forms import CommentForm, ContactForm 
 from django.forms import Form
 from django.http import HttpResponseRedirect
 from django.db.models import Q
@@ -192,11 +192,11 @@ class about(View):
 
 
 class DeletePostView(
-    UserPassesTestMixin,
-    LoginRequiredMixin,
-    SuccessMessageMixin,
-    DeleteView
-):
+        UserPassesTestMixin,
+        LoginRequiredMixin,
+        SuccessMessageMixin,
+        DeleteView
+    ):
     """ If user is logged can delete a his post """
 
     model = Post
@@ -209,16 +209,18 @@ class DeletePostView(
             return True
         return False
 
+
 def contact(request):
     submitted = False
     if request.method == "POST":
         form = ContactForm(request.POST)
         if form.is_valid():
             form.save()
-            return HttpResponseRedirect('contact?submitted=True')
+            messages.success(request, 'Your message has been sent!')
+            return HttpResponseRedirect('/contact?submitted=True')
     else:
         form = ContactForm()
         if 'submitted' in request.GET:
             submitted = True
-            
-    return render(request, 'contact.html', {'contact': form})
+    form = ContactForm()
+    return render(request, 'contact.html', {'form': form})
