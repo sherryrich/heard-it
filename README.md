@@ -111,7 +111,7 @@ A video tutorial outlining some features can be viewed [here](https://res.cloudi
 ### Existing Features
 
 ### Home Page
-Homepage displays the Navbar Brand / logo name, About, Sign Up & Login options on the left and search function on the right.
+Homepage displays the Navbar Brand / logo name, About, Sign Up, Login and Contact options on the left and search function on the right.
 There is a H1 heading describing what the website is about so that users understand the websites function and target audience.
 The main body of the homepage contains 6 articles / posts and once more than 6 articles are posted pagination shows links to the next page.
 Social media network links are displayed in the footer.
