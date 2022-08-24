@@ -178,6 +178,12 @@ When a user logs out successfully a message is displayed for 3 seconds to confir
 ### Comment Awaiting Approval
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/comment_awaiting_approval.PNG)
 
+### Contact Page
+![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/contact_page.PNG)
+
+### Contact Page Djano Admin
+![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/contact_page_django_admin.PNG)
+
 ### Social Links
 The footer contains various social network links (Facebook, Twitter, Instagram and YouTube) and Copyright information.
 
@@ -187,7 +193,6 @@ The footer contains various social network links (Facebook, Twitter, Instagram a
 A 404 page was created to handle potential user navigational errors and give user a link to direct them back to the homepage.
 
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/404.PNG)
-
 
 ### 500 Page
 A 500 server error page was created to handle internal server errors.
@@ -361,7 +366,8 @@ to copy the URL
 ## Credits
 
 * Code Institute - Database Management Systems - Task Manager Walkthrough
-* Code Institute - 'I think therefore I blog' Django blog project Walkthrough
+* Code Institute - 'I think therefore I blog' - Django blog project Walkthrough
+* Codemy.com Database Tables With Django - [YouTube](https://youtu.be/z5e_8FgKZig)
 * Corey Schafer Python Django Tutorial [YouTube](https://www.youtube.com/c/Coreyms)
 * Create A Simple Blog With Python and Django [YouTube](https://youtu.be/B40bteAMM_M)
 * The Web Developer Bootcamp 2002 [Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/)
