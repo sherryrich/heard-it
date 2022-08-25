@@ -98,7 +98,7 @@ A video tutorial outlining some features can be viewed [here](https://res.cloudi
 ### Navigation
 
 <details>
-  <summary>Click here to view website navigation </summary>
+  <summary>Click here to view website navigation</summary>
 
   ![](docs/navigation.drawio.png)
 
