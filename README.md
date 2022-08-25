@@ -65,7 +65,7 @@ A video tutorial outlining some features can be viewed [here](https://res.cloudi
 ## Design
 ### Wireframes
  <details>
-  <summary>Click here to view all wireframes both Desktop & mobile </summary>
+  <summary>Click here to view all wireframes both Desktop & mobile:</summary>
 
   ![](docs/wireframe_homepage.PNG)
   ![](docs/wireframe_about.PNG)
@@ -88,7 +88,7 @@ A video tutorial outlining some features can be viewed [here](https://res.cloudi
 ### Database Schema
 
  <details>
-  <summary>Database Schema</summary>
+  <summary>Database Schema:</summary>
 
   ![](docs/database_schema.PNG)
 
@@ -98,7 +98,7 @@ A video tutorial outlining some features can be viewed [here](https://res.cloudi
 ### Navigation
 
 <details>
-  <summary>Click here to view website navigation</summary>
+  <summary>Click here to view website navigation:</summary>
 
   ![](docs/navigation.drawio.png)
 
@@ -107,7 +107,7 @@ A video tutorial outlining some features can be viewed [here](https://res.cloudi
 ### Color Palette
 
  <details>
-  <summary>Color Palette</summary>
+  <summary>Color Palette:</summary>
 
   ![](docs/color_palette.PNG)
 
