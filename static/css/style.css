@@ -140,10 +140,11 @@ a.nav-link-active {
     color: lightgray;
 }
 
+.btn-signup,
 .heardit-btn,
 .create_update_button {
     background-color: #445261;
-    color: #fff;
+    color: #fff !important;
 }
 
 .btn-signup:hover,
@@ -151,7 +152,8 @@ a.nav-link-active {
 .btn-signup:active,
 .heardit-btn:active {
     background-color: #fff;
-    color: #47CDEB;
+    color: #000000 !important;
+    border: 1px solid #445261 !important;
 }
 
 .link {
