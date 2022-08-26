@@ -191,6 +191,10 @@ When a user posts an artilce they are informed the post is waiting approval.
 When a user sucesfully edits an artilce they are informed the post has been updated.
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/post_created_message_awaiting_approval.PNG)
 
+### Delete Article
+When an author selects to delete an artilce they have created they are asked if they want to proceed before permenant deletion as it cannot be undone. Once deletion is confirmed the user is directed back to the homepage.
+![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/confirm_delete_message.PNG)
+
 ### Article View
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/article_view_1.PNG)
 
