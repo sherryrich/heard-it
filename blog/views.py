@@ -66,6 +66,7 @@ class DeletePostView(
     """ If user is logged can delete a his post """
 
     model = Post
+    template_name = "post_confirm_delete.html"
     success_url = reverse_lazy('home')
     success_message = ("Your Post has been deleted")
 

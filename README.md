@@ -401,6 +401,7 @@ to copy the URL
 * Code Institute - Database Management Systems - Task Manager Walkthrough
 * Code Institute - 'I think therefore I blog' - Django blog project Walkthrough
 * Codemy.com Database Tables With Django - [YouTube](https://youtu.be/z5e_8FgKZig)
+* Codemy.com Delete a Blog Post - Django - [YouTube](https://youtu.be/8NPOwmtupiI)
 * Corey Schafer Python Django Tutorial [YouTube](https://www.youtube.com/c/Coreyms)
 * Create A Simple Blog With Python and Django [YouTube](https://youtu.be/B40bteAMM_M)
 * The Web Developer Bootcamp 2002 [Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/)
