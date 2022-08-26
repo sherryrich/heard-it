@@ -60,6 +60,7 @@ A video tutorial outlining some features can be viewed [here](https://res.cloudi
 * I used project templates to speed up the process. 
 * I used the automated kanban process and when It is connected to my repo. This allowed me to monitor, track and create user stories.
 * In my developer environment when I used the keyword "resolve #card_number" in my commit message this automatically moved the card would move to completed column.
+* I thought about adding a seperate app for the contact page so as to apply seperation of concerns however I felt that would be WET (Write Everything Twice) and decided upon KIS (Keep It Simple) / DRY code (Dont Repeat Yourself).
 
 
 ## Design
