@@ -4,7 +4,7 @@ from django.contrib.messages.views import SuccessMessageMixin
 from django.urls import reverse_lazy
 from django.views import generic, View
 from .models import Post
-from .forms import CommentForm, ContactForm 
+from .forms import CommentForm, ContactForm
 from django.forms import Form
 from django.http import HttpResponseRedirect
 from django.db.models import Q
