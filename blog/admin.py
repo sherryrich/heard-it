@@ -32,4 +32,3 @@ class ContactAdmin(admin.ModelAdmin):
 
     def approve_contact(self, request, queryset):
         queryset.update(approved=True)
-

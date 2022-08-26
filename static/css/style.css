@@ -199,4 +199,7 @@ a.nav-link-active {
         width: 200px !important;
     }
 
+    textarea {
+        width: 75%;
+    }
 }

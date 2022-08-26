@@ -8,6 +8,7 @@ class CommentForm(forms.ModelForm):
         model = Comment
         fields = ('body',)
 
+
 class ContactForm(forms.ModelForm):
     class Meta:
         model = Contact

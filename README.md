@@ -259,6 +259,8 @@ No known unfixed bugs present at the time of submission
 * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) used for audits to measure the quality of web pages.
 * [Heroku](https://www.heroku.com/) used to deploy this app, a cloud platform as a service supporting several programming languages.
 * [Pexels](https://www.pexels.com/) Images for this project were sourced from Pexels.
+* [RTE](https://www.rte.ie/) Content inspiration for articles.
+* [Silicon Republic](https://www.siliconrepublic.com/) Content inspiration for articles.
 * [Unsplash](https://unsplash.com/) Images for this project were sourced from Unsplash.
 * [WAVE](https://wave.webaim.org/extension/) Browser Extension testing.
 
