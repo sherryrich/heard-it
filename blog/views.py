@@ -191,25 +191,6 @@ class about(View):
     template_name = "about.html"
 
 
-class DeletePostView(
-        UserPassesTestMixin,
-        LoginRequiredMixin,
-        SuccessMessageMixin,
-        DeleteView
-    ):
-    """ If user is logged can delete a his post """
-
-    model = Post
-    success_url = reverse_lazy('home')
-    success_message = ("Your Post has been deleted")
-
-    def test_func(self):
-        post = self.get_object()
-        if self.request.user == post.author:
-            return True
-        return False
-
-
 def contact(request):
     submitted = False
     if request.method == "POST":
