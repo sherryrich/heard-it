@@ -180,9 +180,16 @@ When a user logs out successfully a message is displayed for 3 seconds to confir
 ### Post Article
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/post_article.PNG)
 
+### Post Article - waiting approval
+When a user posts an artilce they are informed the post is waiting approval.
+![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/post_created_message_awaiting_approval.PNG)
+
 ### Edit / Delete Article
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/user_article_update_delete.PNG)
 
+### Edit Article - confirmation of update
+When a user sucesfully edits an artilce they are informed the post has been updated.
+![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/post_created_message_awaiting_approval.PNG)
 
 ### Article View
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/article_view_1.PNG)
@@ -214,6 +221,14 @@ A 404 page was created to handle potential user navigational errors and give use
 A 500 server error page was created to handle internal server errors.
 
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/500.PNG)
+
+### Default image
+
+A default image is loaded if the user fails to post an image. This is stored in cloudinary.
+
+![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/defaulted_image.PNG)
+
+
 
 ## Future Features
 * Allows users to signup to a newsletter / mailing list.
