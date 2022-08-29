@@ -359,17 +359,21 @@ No known unfixed bugs present at the time of submission
 | Selecting Sign Up directs user to /accounts/signup/ page |  Pass |
 | Selecting Login directs user to /accounts/login/ page  |  Pass |
 | Selecting contact directs user to /contact page  |  Pass |
-| Filling in form requires name, email and body to send to Django admin  |  Pass |
-| Contact form successfully sends to Django admin as expected  |  Pass |
-| Selecting search articles in navbar and entering a search returns result  |  Pass |
-| Selecting search articles in navbar and entering a no results search returns no result  |  Pass |
+| Filling in form on /contact page requires name, email and body to send to Django admin  |  Pass |
+| Contact form successfully sends data to Django admin as expected  |  Pass |
+| Selecting search articles box in navbar and entering a search returns expected result  |  Pass |
+| Selecting search articles box in navbar and entering a no results search returns no result page  |  Pass |
 | Click on the pagination link at the bottom of the page returns results of the next page (example /?page=2) |  Pass |
-| registering as a user and entering password <8 characters prompts message "This password is too short." |  Pass |
+| Registering as a user and entering password <8 characters prompts message "This password is too short." |  Pass |
 | Registering as a user and entering password >8 characters to create a new user |  Pass |
-| If no image is selected default image is loaded |  Pass |
 | Logging in as superuser / admin |  Pass |
+| "Sucesfully signed in as (user name)" message shown to user |  Pass |
 | Logging in as superuser / admin to approve post |  Pass |
 | Navigating site as user / admin is permitted |  Pass |
+| Creating a new post directs user to "/new" and required fields send the data successfully to Django admin  |  Pass |
+| Confirmation message that post is "waiting for approval" shown to user |  Pass |
+| As admin I can view and publish post |  Pass |
+| If no image is selected then the default image is used |  Pass |
 | Posting a comment as a user / admin on any article |  Pass |
 | Liking a comment as a user / admin on any article |  Pass |
 | Updating a post as the author |  Pass |
@@ -379,6 +383,7 @@ No known unfixed bugs present at the time of submission
 | Not permitted to update a post if not the author |  Pass |
 | Not permitted to delete a post if not the author |  Pass |
 | Logging out as a user / admin prompts "are you sure" message |  Pass |
+| "You have signed out" message shows to user when Sucesfully signed out |  Pass |
 | Logging out as a user / admin directs user to homepage |  Pass |
 | Posting a new article requires appropriate fields to be filled in |  Pass |
 | Clicking on the social media icons in the footer open the link in a new tab |  Pass |
