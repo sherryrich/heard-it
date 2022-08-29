@@ -69,7 +69,10 @@ class DeletePostView(
     template_name = "post_confirm_delete.html"
     success_message = ("Your Post has been deleted")
     success_url = reverse_lazy('home')
-    
+
+    def delete(self, request, *args, **kwargs):
+        messages.success(self.request, self.success_message)
+        return super(DeletePostView, self).delete(request, *args, **kwargs)
 
     def test_func(self):
         post = self.get_object()

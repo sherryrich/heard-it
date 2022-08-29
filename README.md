@@ -195,6 +195,10 @@ When a user sucesfully edits an artilce they are informed the post has been upda
 When an author selects to delete an artilce they have created they are asked if they want to proceed before permenant deletion as it cannot be undone. Once deletion is confirmed the user is directed back to the homepage.
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/confirm_delete_message.PNG)
 
+### Delete Article Confirmation Message
+When an author sucesfully deletes an artilce they as shown a confirmation message on screen.
+![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/post_deletion_confirmation.PNG)
+
 ### Article View
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/article_view_1.PNG)
 
@@ -339,6 +343,8 @@ No known unfixed bugs present at the time of submission
   </details>
 
 ### Manual Testing
+* For some further defensive programming I tested SQL Injection attacks by attempting to delete / updated articles via the URL with "update" and "delete" appended when not logged in as admin or users.
+
 ### Responsiveness
 ### Browser Compatibility
 
@@ -410,6 +416,7 @@ to copy the URL
 * Create A Simple Blog With Python and Django [YouTube](https://youtu.be/B40bteAMM_M)
 * The Web Developer Bootcamp 2002 [Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/)
 * How to Use GitHub for Automated Kanban Project Management [YouTube](https://www.youtube.com/watch?v=YVFa5VljCDY)
+* Delete conifrmation message [stackoverflow](https://stackoverflow.com/questions/24822509/success-message-in-deleteview-not-shown)
 
 ## Acknowledgements
 * To create this website, I relied on material covered in the Full Stack Development course by Code Institute.
