@@ -55,6 +55,7 @@ A video tutorial outlining some features can be viewed [here](https://res.cloudi
 * I want to be able to Remove / delete post(s) / article(s) permanently
 
 ## Agile Development Process
+* The MoSCoW method was adopted to approach to prioritizing which project requirements for must have, should have, could have and will not have.
 * I used GitHub for Automated Kanban Project Management. [Click Here](https://github.com/sherryrich/heard-it/blob/main/docs/project_user_stories.PNG)
 * I used GitHub project board to generate user story templates.
 * I used project templates to speed up the process. 
@@ -343,10 +344,14 @@ No known unfixed bugs present at the time of submission
   </details>
 
 ### Manual Testing
+* Manual testing was completed for each case and edge case scanerio from user log in, user post article, user delete article and user log out and contact and search articles.
+* The site was also manually tested on various browsers (Google Chrome, Safari, Microsoft Edge and Firefox.) and on different screen sizes.
+* Dev tools was used often to identify errors within HTML and CSS code, with the console feature to identify errors in Javascript code.
+* I also used lighthouse reports to see the performance, quality, and correctness of the website.
+* I also used WAVE to check the accessibility of my website and this made me alter my color scheme to accont for contracting errors found during development.
 * For some further defensive programming I tested SQL Injection attacks by attempting to delete / updated articles via the URL with "update" and "delete" appended when not logged in as admin or users.
 
-### Responsiveness
-### Browser Compatibility
+### Responsiveness Browser Compatibility
 
 |  | Chrome | Firefox | Edge | Safari | Pass/Fail |
 | ------------- |-------------| -----|  ---------- |  -----| :----: |
