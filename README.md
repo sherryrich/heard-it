@@ -351,6 +351,39 @@ No known unfixed bugs present at the time of submission
 * I also used WAVE to check the accessibility of my website and this made me alter my color scheme to accont for contracting errors found during development.
 * For some further defensive programming I tested SQL Injection attacks by attempting to delete / updated articles via the URL with "update" and "delete" appended when not logged in as admin or users.
 
+### More manual testing scanerios and results
+|   | Pass/Fail |
+| ------------- | :----: |
+| Selecting heardit logo on homepage directs user back to homepage  |  Pass |
+| Selecting about link directs user to /about page  |  Pass |
+| Selecting Sign Up directs user to /accounts/signup/ page |  Pass |
+| Selecting Login directs user to /accounts/login/ page  |  Pass |
+| Selecting contact directs user to /contact page  |  Pass |
+| Filling in form requires name, email and body to send to Django admin  |  Pass |
+| Contact form successfully sends to Django admin as expected  |  Pass |
+| Selecting search articles in navbar and entering a search returns result  |  Pass |
+| Selecting search articles in navbar and entering a no results search returns no result  |  Pass |
+| Click on the pagination link at the bottom of the page returns results of the next page (example /?page=2) |  Pass |
+| registering as a user and entering password <8 characters prompts message "This password is too short." |  Pass |
+| Registering as a user and entering password >8 characters to create a new user |  Pass |
+| If no image is selected default image is loaded |  Pass |
+| Logging in as superuser / admin |  Pass |
+| Logging in as superuser / admin to approve post |  Pass |
+| Navigating site as user / admin is permitted |  Pass |
+| Posting a comment as a user / admin on any article |  Pass |
+| Liking a comment as a user / admin on any article |  Pass |
+| Updating a post as the author |  Pass |
+| User is prompted "are you sure you want to delete" before permitting deletion of a post |  Pass |
+| Deleting a post as the author |  Pass |
+| Confirmation message of deletion is shown |  Pass |
+| Not permitted to update a post if not the author |  Pass |
+| Not permitted to delete a post if not the author |  Pass |
+| Logging out as a user / admin prompts "are you sure" message |  Pass |
+| Logging out as a user / admin directs user to homepage |  Pass |
+| Posting a new article requires appropriate fields to be filled in |  Pass |
+| Clicking on the social media icons in the footer open the link in a new tab |  Pass |
+
+
 ### Responsiveness Browser Compatibility
 
 |  | Chrome | Firefox | Edge | Safari | Pass/Fail |
