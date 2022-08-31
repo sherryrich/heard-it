@@ -2,6 +2,8 @@
 
 ## Introduction
 HEARD|it is an Irish technology news website which encourages users to Create, Read and Shape the news with a focus on technology start-ups.
+The website is aimed at users who enjoy sharing news articles with the emphasis on Tech trends.
+Users have the ability to create, read, update and delete articles via their own profile and like and comment on articles posted by other users.
 
 
 ## Showcase
@@ -246,7 +248,7 @@ A default image is loaded if the user fails to post an image. This is stored in 
 * Allows users to filter by most read or most commented on articles.
 * Allow users to contribute to financially support ongoing publication by way of donations.
 
-## Bugs encountered during development
+## Bugs / Errors encountered during development
 * Manage.py was not in the root directory. [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_1.png)
 * App wasn’t deploying to heroku correctly. Updated Procfile from "heard-it" to "heardit"
 * Update your requirements.txt - pip3 freeze > requirements.txt and try again. I had a typo in requirements without .txt. [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_2.png)
@@ -258,7 +260,7 @@ A default image is loaded if the user fails to post an image. This is stored in 
 * Space in the token provided. Caused CSS not to display on the front end as expected. [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_8.png)
 * Missing closing span. Caused HTML to fail validator rules. [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/error_9.png)
 * Search Button was missing on smaller devices so I added a media query and reduced the size of the element on smaller devices. Please see screen shots [Before](https://github.com/sherryrich/heard-it/blob/main/docs/search_box_before.PNG) and [After](https://github.com/sherryrich/heard-it/blob/main/docs/search_box_after.PNG). 
-
+* I was aware of various pylint and flak8 notifications however none of them are having any functionality implications and were as a result of the template followed from the code institute Django blog project Walkthrough.
 
 ### Unfixed Bugs
 No known unfixed bugs present at the time of submission
@@ -284,11 +286,10 @@ No known unfixed bugs present at the time of submission
 * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) used for audits to measure the quality of web pages.
 * [Heroku](https://www.heroku.com/) used to deploy this app, a cloud platform as a service supporting several programming languages.
 * [Pexels](https://www.pexels.com/) Images for this project were sourced from Pexels.
-* [RTE](https://www.rte.ie/) Content inspiration for articles.
 * [Silicon Republic](https://www.siliconrepublic.com/) Content inspiration for articles.
 * [Unsplash](https://unsplash.com/) Images for this project were sourced from Unsplash.
 * [WAVE](https://wave.webaim.org/extension/) Browser Extension testing.
-* [a11y](hhttps://color.a11y.com/) Color Contrast Accessibility Validator.
+* [a11y](https://color.a11y.com/) Color Contrast Accessibility Validator.
 
 
 
@@ -302,6 +303,7 @@ No known unfixed bugs present at the time of submission
 | CSS   | W3C CSS Validator | Pass |
 | Python   | PEP8 online | Pass |
 | JS   | JSHint | Pass |
+| Color Contrast   | a11y | Pass |
 
 ### Lighthouse Report
 * Ran Lighthouse reports audits to gauge performance, accessibility, and SEO. Gain actionable and reportable insights in real time.
@@ -470,6 +472,7 @@ to copy the URL
 * The Web Developer Bootcamp 2002 [Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/)
 * How to Use GitHub for Automated Kanban Project Management [YouTube](https://www.youtube.com/watch?v=YVFa5VljCDY)
 * Delete conifrmation message [Stack Overflow](https://stackoverflow.com/questions/24822509/success-message-in-deleteview-not-shown)
+* [RTE](https://www.rte.ie/) Content inspiration for articles.
 
 ## Acknowledgements
 * To create this website, I relied on material covered in the Full Stack Development course by Code Institute.

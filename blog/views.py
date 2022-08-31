@@ -102,6 +102,9 @@ def add_article(request):
     return render(request, 'post_form.html', {'new': new})
 
 
+"""View for searching articles"""
+
+
 def search_articles(request):
     if request.method == 'POST':
         searched = request.POST['searched']
@@ -194,6 +197,9 @@ class PostLike(View):
 class about(View):
     """View for displaying the 'About' page."""
     template_name = "about.html"
+
+
+"""View for contact form"""
 
 
 def contact(request):
