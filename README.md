@@ -30,7 +30,7 @@ A video tutorial outlining some features can be viewed [here](https://res.cloudi
 - [Agile Development Process](#agile-development-process)
 - [Design](#design)
 - [Features](#features)
-- [Technologies Used](###technologies-used)
+- [Technologies Used](#technologies-used)
 - [Testing](#testing)
 - [Deployment](#deployment)
 - [Credits](#credits)
@@ -288,6 +288,7 @@ No known unfixed bugs present at the time of submission
 * [Silicon Republic](https://www.siliconrepublic.com/) Content inspiration for articles.
 * [Unsplash](https://unsplash.com/) Images for this project were sourced from Unsplash.
 * [WAVE](https://wave.webaim.org/extension/) Browser Extension testing.
+* [a11y](hhttps://color.a11y.com/) Color Contrast Accessibility Validator.
 
 
 
