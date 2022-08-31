@@ -63,7 +63,7 @@ A video tutorial outlining some features can be viewed [here](https://res.cloudi
 * I used project templates to speed up the process. 
 * I used the automated kanban process and when It is connected to my repo. This allowed me to monitor, track and create user stories.
 * In my developer environment when I used the keyword "resolve #card_number" in my commit message this automatically moved the card would move to completed column.
-* I thought about adding a seperate app for the contact page so as to apply seperation of concerns however I felt that would be WET (Write Everything Twice) and decided upon KIS (Keep It Simple) / DRY code (Dont Repeat Yourself).
+* I thought about adding a separate app for the contact page so as to apply separation of concerns however I felt that would be WET (Write Everything Twice) and decided upon KIS (Keep It Simple) / DRY code (Dont Repeat Yourself).
 
 
 ## Design
@@ -92,8 +92,7 @@ A video tutorial outlining some features can be viewed [here](https://res.cloudi
 ### Navigation
 
 I created a logic flowchart to help organise the site structure.
-This also helped visually to confirm user roles and the permissions.
-After this was created I was able to move on and create an ERD entity relationship diagram.
+The ERD entity relationship diagram helped visually to confirm user roles and the permissions.
 
 <details>
   <summary>Click here to view website navigation:</summary>
@@ -197,22 +196,22 @@ When a user logs out successfully a message is displayed for 3 seconds to confir
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/post_article.PNG)
 
 ### Post Article - waiting approval
-When a user posts an artilce they are informed the post is waiting approval.
+When a user posts an article they are informed the post is waiting approval.
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/post_created_message_awaiting_approval.PNG)
 
 ### Edit / Delete Article
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/user_article_update_delete.PNG)
 
 ### Edit Article - confirmation of update
-When a user sucesfully edits an artilce they are informed the post has been updated.
+When a user successfully edits an article they are informed the post has been updated.
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/post_created_message_awaiting_approval.PNG)
 
 ### Delete Article
-When an author selects to delete an artilce they have created they are asked if they want to proceed before permenant deletion as it cannot be undone. Once deletion is confirmed the user is directed back to the homepage.
+When an author selects to delete an article they have created they are asked if they want to proceed before permanent deletion as it cannot be undone. Once deletion is confirmed the user is directed back to the homepage.
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/confirm_delete_message.PNG)
 
 ### Delete Article Confirmation Message
-When an author sucesfully deletes an artilce they as shown a confirmation message on screen.
+When an author successfully deletes an article they as shown a confirmation message on screen.
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/post_deletion_confirmation.PNG)
 
 ### Article View
@@ -224,7 +223,7 @@ When an author sucesfully deletes an artilce they as shown a confirmation messag
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/comment_awaiting_approval.PNG)
 
 ### Contact Page
-Users can contact the website via a simply form with name, email and body of message. Once the form is sucesfully sent a message is shown to the user to inform them.
+Users can contact the website via a simply form with name, email and body of message. Once the form is successfully sent a message is shown to the user to inform them.
 ![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/contact_page.PNG)
 
 ### Contact Page Djano Admin
@@ -372,7 +371,7 @@ No known unfixed bugs present at the time of submission
 * The site was also manually tested on various browsers (Google Chrome, Safari, Microsoft Edge and Firefox.) and on different screen sizes.
 * Dev tools was used often to identify errors within HTML and CSS code, with the console feature to identify errors in Javascript code.
 * I also used lighthouse reports to see the performance, quality, and correctness of the website.
-* I also used WAVE to check the accessibility of my website and this made me alter my color scheme to accont for contracting errors found during development.
+* I also used WAVE to check the accessibility of my website and this made me alter my color scheme to account for contracting errors found during development.
 * For some further defensive programming I tested SQL Injection attacks by attempting to delete / updated articles via the URL with "update" and "delete" appended when not logged in as admin or users.
 
 ### More manual testing scanerios and results
@@ -391,7 +390,7 @@ No known unfixed bugs present at the time of submission
 | Registering as a user and entering password <8 characters prompts message "This password is too short." |  Pass |
 | Registering as a user and entering password >8 characters to create a new user |  Pass |
 | Logging in as superuser / admin |  Pass |
-| "Sucesfully signed in as (user name)" message shown to user |  Pass |
+| "successfully signed in as (user name)" message shown to user |  Pass |
 | Logging in as superuser / admin to approve post |  Pass |
 | Navigating site as user / admin is permitted |  Pass |
 | Creating a new post directs user to "/new" and required fields send the data successfully to Django admin  |  Pass |
@@ -407,7 +406,7 @@ No known unfixed bugs present at the time of submission
 | Not permitted to update a post if not the author |  Pass |
 | Not permitted to delete a post if not the author |  Pass |
 | Logging out as a user / admin prompts "are you sure" message |  Pass |
-| "You have signed out" message shows to user when Sucesfully signed out |  Pass |
+| "You have signed out" message shows to user when successfully signed out |  Pass |
 | Logging out as a user / admin directs user to homepage |  Pass |
 | Posting a new article requires appropriate fields to be filled in |  Pass |
 | Clicking on the social media icons in the footer open the link in a new tab |  Pass |
@@ -484,7 +483,7 @@ to copy the URL
 * Create A Simple Blog With Python and Django [YouTube](https://youtu.be/B40bteAMM_M)
 * The Web Developer Bootcamp 2002 [Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/)
 * How to Use GitHub for Automated Kanban Project Management [YouTube](https://www.youtube.com/watch?v=YVFa5VljCDY)
-* Delete conifrmation message [Stack Overflow](https://stackoverflow.com/questions/24822509/success-message-in-deleteview-not-shown)
+* Delete confirmation message [Stack Overflow](https://stackoverflow.com/questions/24822509/success-message-in-deleteview-not-shown)
 * [RTE](https://www.rte.ie/) Content inspiration for articles.
 
 ## Acknowledgements
