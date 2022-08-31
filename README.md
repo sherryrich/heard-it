@@ -343,6 +343,14 @@ No known unfixed bugs present at the time of submission
 
   </details>
 
+   ### Color Contrast Accessibility Validator 
+  <details>
+  <summary>Checked color contrast analysis accessibility</summary>
+
+  ![](docs/color_contrast_accessibility_validator.PNG)
+
+  </details> 
+
 ### Manual Testing
 * Manual testing was completed for each case and edge case scanerio from user log in, user post article, user delete article and user log out and contact and search articles.
 * The site was also manually tested on various browsers (Google Chrome, Safari, Microsoft Edge and Firefox.) and on different screen sizes.
@@ -451,15 +459,16 @@ to copy the URL
 
 ## Credits
 
-* Code Institute - Database Management Systems - Task Manager Walkthrough
-* Code Institute - 'I think therefore I blog' - Django blog project Walkthrough
+* Code Institute - [Hello Django](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FST101+2021_T1/courseware/dc049b343a9b474f8d75822c5fda1582/121ef050096f4546a1c74327a9113ea6/) - Task Manager Walkthrough
+* Code Institute - [I think therefore I blog](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FST101+2021_T1/courseware/b31493372e764469823578613d11036b/fe4299adcd6743328183aab4e7ec5d13/
+) - Django blog project Walkthrough
 * Codemy.com Database Tables With Django - [YouTube](https://youtu.be/z5e_8FgKZig)
 * Codemy.com Delete a Blog Post - Django - [YouTube](https://youtu.be/8NPOwmtupiI)
 * Corey Schafer Python Django Tutorial [YouTube](https://www.youtube.com/c/Coreyms)
 * Create A Simple Blog With Python and Django [YouTube](https://youtu.be/B40bteAMM_M)
 * The Web Developer Bootcamp 2002 [Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/)
 * How to Use GitHub for Automated Kanban Project Management [YouTube](https://www.youtube.com/watch?v=YVFa5VljCDY)
-* Delete conifrmation message [stackoverflow](https://stackoverflow.com/questions/24822509/success-message-in-deleteview-not-shown)
+* Delete conifrmation message [Stack Overflow](https://stackoverflow.com/questions/24822509/success-message-in-deleteview-not-shown)
 
 ## Acknowledgements
 * To create this website, I relied on material covered in the Full Stack Development course by Code Institute.
