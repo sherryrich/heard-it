@@ -103,14 +103,14 @@ The ERD entity relationship diagram helped visually to confirm user roles and th
 
 ### Database Schema
 
-I created 3 databases for the website. Post, Comment & Contact. There are some objects not present in my database schema such as user and profiles as these are objects that Django automatically creates.
+I created 3 tables for the website. Post, Comment & Contact tables. There are some objects not present in my database schema such as user and profiles as these are objects that Django automatically creates.
 
-The Post Database is used by users to post articles to the website. It has a Primary Key of ID & a ForeignKey relationship to the Comment Database.
-The database also has the following fields, a title, slug (short summary the subject of an article), content, excerpt (short extract), Updated On (date post was updated), Created On (date post was created), status (draft or published) and Likes.
+The Post table is used by users to post articles to the website. It has a Primary Key of ID & a ForeignKey relationship to the Comment table.
+The table also has the following fields, a title, slug (short summary the subject of an article), content, excerpt (short extract), Updated On (date post was updated), Created On (date post was created), status (draft or published) and Likes.
 
-The Comment Database is used by users to comment on articles. It has the following fields a Primary Key of ID, name, email, body, created on, approved and a ForeignKey to the Post Database.
+The Comment table is used by users to comment on articles. It has the following fields a Primary Key of ID, name, email, body, created on, approved and a ForeignKey to the Post table.
 
-The Contact Database is used by users to submit the contact form. It has the following fields a Primary Key of ID, name, email, body & created on (date contact form was submitted).
+The Contact table is used by users to submit the contact form. It has the following fields a Primary Key of ID, name, email, body & created on (date contact form was submitted).
 
  <details>
   <summary>Database Schema:</summary>
