@@ -113,7 +113,7 @@ The Comment table is used by users to comment on articles. It has the following 
 The Contact table is used by users to submit the contact form. It has the following fields a Primary Key of ID, name, email, body & created on (date contact form was submitted).
 
  <details>
-  <summary>Database Schema:</summary>
+  <summary>Click here to view Database Schema:</summary>
 
   ![](docs/database_schema.PNG)
 
@@ -123,7 +123,7 @@ The Contact table is used by users to submit the contact form. It has the follow
 ### Color Palette
 
  <details>
-  <summary>Color Palette:</summary>
+  <summary>Click here to view Color Palette:</summary>
 
   ![](docs/color_palette.PNG)
 
@@ -485,6 +485,7 @@ to copy the URL
 * How to Use GitHub for Automated Kanban Project Management [YouTube](https://www.youtube.com/watch?v=YVFa5VljCDY)
 * Delete confirmation message [Stack Overflow](https://stackoverflow.com/questions/24822509/success-message-in-deleteview-not-shown)
 * [RTE](https://www.rte.ie/) Content inspiration for articles.
+* [CluelessBiker](https://github.com/CluelessBiker/project4-print-statements) inspiration and advice given
 
 ## Acknowledgements
 * To create this website, I relied on material covered in the Full Stack Development course by Code Institute.
